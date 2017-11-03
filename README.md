@@ -5,4 +5,5 @@ If you like it, cool! Feel free to use it and or make it way better, but you're 
 
 It works for me, though!
 
-# Download
+## Install
+You can install it quickly on the [userstyles.org](https://userstyles.org/styles/150563/asana-darkness) page, or you can grab the .css file here on GitHub.
