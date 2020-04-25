@@ -6292,3 +6292,65 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     color: #fefefe75;
     fill: #fefefe75;
 }
+
+.PortfolioIndexPage {
+    background-color: #212121
+}
+
+.FormEditorOptions {
+    background: #212121;
+    border-color: #42424270
+}
+
+.FormEditorSubmissionTitleSettings-formTitleInput {
+    background-color: #303030;
+}
+
+.EditingTitle {
+    background: #303030;
+}
+
+.EditingTitle-nameRow,
+.simpleTextarea {
+    background: #424242 !important;
+    border-color: #00968850
+}
+
+.EditingFormField {
+    background-color: #303030
+}
+
+.EditingFormField-separator {
+    border-color: #424242
+}
+
+.AttachmentFormFieldPreview {
+    background-color: #424242;
+    border-color: #00968850
+}
+
+.AttachmentFormFieldPreview-fakeButton {
+    background: #303030;
+    border-color: #00968850;
+    color: #fefefe
+}
+
+.highcharts-area {
+    fill: #424242;
+}
+
+.BurnupChart .highcharts-tooltip>span {
+    background-color: #424242;
+    border-color: #424242;
+    color: #fefefe !important;
+    font-family: Lato, Source Sans Pro, IBM Plex Sans, -Apple-system, BlinkMacSystemFont, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+}
+
+.BurnupChart .highcharts-tooltip>span .date-label {
+    color: #009688 !important;
+    font-weight: 600
+}
