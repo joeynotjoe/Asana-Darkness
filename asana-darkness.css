@@ -1992,6 +1992,10 @@ body {
     font-weight: 500
 }
 
+.TextEditor-container {
+    border-color: #42424270
+}
+
 .textEditor-container .ql-editor {
     font-size: 1.1em
 }
@@ -5620,6 +5624,10 @@ div.tooltip-body {
     color: #fefefe75
 }
 
+.Typography--colorDarkGray3 {
+    color: #ffffff
+}
+
 .ShadowScrollable-headerShadow {
     border-color: #42424270;
 }
@@ -6310,8 +6318,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     background: #303030;
 }
 
-.EditingTitle-nameRow,
-.simpleTextarea {
+.EditingTitle-nameRow {
     background: #424242 !important;
     border-color: #00968850
 }
@@ -6353,4 +6360,52 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .BurnupChart .highcharts-tooltip>span .date-label {
     color: #009688 !important;
     font-weight: 600
+}
+
+.TeamMembersSection-showAllMembersRow--clickable .TeamMembersSection-showAllMembersIconWrapper {
+    background: #303030;
+}
+
+.TeamMembersSection-showAllMembersRow--clickable:hover .TeamMembersSection-showAllMembersIconWrapper {
+    background: #424242
+}
+
+.PotTile-card {
+    background: #424242;
+    fill: #fefefe70
+}
+
+.TeamSettingsDialogMembersTabContent-inviteControls,
+.SidebarCollapsibleSection {
+    border-color: #42424270
+}
+
+.SingleTaskPaneSpreadsheet-footer {
+    background: #262626;
+}
+
+.HomeTasksForTodaySection-empty,
+.MultilineRowMetadataStructure-metadata,
+.SidebarCollapsibleHeader {
+    color: #fefefe70;
+    font-family: Lato, Source Sans Pro, IBM Plex Sans, -Apple-system, BlinkMacSystemFont, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+}
+
+.HubViewMenu-button,
+.MultilineRowMetadataStructure-metadata,
+.SidebarTeamsList-addTeamLink {
+    fill: #fefefe70
+}
+
+.SidebarCollapsibleHeader:hover .SidebarCollapsibleHeader-name,
+.SidebarCollapsibleHeader:focus .SidebarCollapsibleHeader-name,
+.SidebarTeamsList-addTeamLink,
+.SidebarTeamsList-addTeamLink:hover,
+.SidebarTeamsList-addTeamLink:focus {
+    color: #fefefe90;
+    fill: #fefefe90
 }
