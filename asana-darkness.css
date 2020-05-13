@@ -6409,3 +6409,116 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     color: #fefefe90;
     fill: #fefefe90
 }
+
+.SpreadsheetHeaderLeftStructure--withHoverState:hover {
+    background-color: #303030;
+    color: #fefefe70;
+    fill: #fefefe70;
+}
+
+.LinkOverlayUnfurlStructure-websiteName {
+    color: #fefefe;
+    font-weight: 700;
+}
+
+.LinkOverlayUnfurlStructure-titleLinkText .LinkOverlayUnfurlStructure-titleLinkText--hasUnfurlTitle:hover,
+.LinkOverlayUnfurlStructure-titleLinkText {
+    color: #009688;
+}
+
+.LinkOverlayUnfurlStructure-titleLinkText.LinkOverlayUnfurlStructure-titleLinkText--hasUnfurlTitle:hover,
+.LinkOverlayUnfurlStructure-titleLinkText.LinkOverlayUnfurlStructure-titleLinkText--hasUnfurlTitle:focus {
+    color: #fefefe;
+    font-weight: 700
+}
+
+.ProgressStructure,
+.ProgressStructure-contentAndSidebar {
+    background: #212121
+}
+
+.ProjectProgressHeader {
+    color: #fefefe
+}
+
+.SummaryCountCard {
+    background-color: #424242;
+    box-shadow: 0 1px 3px 0 rgba(66, 66, 66, .15);
+}
+
+.SummaryCountCard-label {
+    color: #fefefe
+}
+
+.ProjectProgressPublishedReportSection-emptyStatusImg {
+    filter: invert(100)
+}
+
+.ProgressStructure-divider {
+    border-right: 1px solid #42424270
+}
+
+.ProgressAboutSection-textEditor:hover {
+    border-color: #424242;
+}
+
+.SummaryCountCard-count,
+.SummaryCountCard-label,
+.StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-input,
+.StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-shadow {
+    font-family: Lato, Source Sans Pro, IBM Plex Sans, -Apple-system, BlinkMacSystemFont, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+}
+
+.TimelinePlaceholder-monthHeader {
+    -webkit-animation: animation-shimmering 1.5s linear infinite;
+    animation: animation-shimmering 1.5s linear infinite;
+    background-color: #303030;
+    background-image: linear-gradient(-90deg, #303030 0%, #424242 50%, #303030 100%);
+    background-position: -300px 0;
+    background-repeat: no-repeat;
+    background-size: 300px 100%;
+    border-radius: 4px;
+    height: 11px;
+}
+
+.StatusReportCreatorTopbar {
+    border-color: #42424270
+}
+
+.StatusReportBody-scrollable {
+    background: #212121
+}
+
+.StatusReportCreator-sidebar {
+    background: #30303025
+}
+
+.StatusReportSectionDivider-line {
+    background: #42424270
+}
+
+.StatusReportHeaderInput-autogrowTextArea {
+    color: #fefefe
+}
+
+.StatusReportColorSelect-statusBadgeOption .StatusBadge.StatusBadge--color,
+.StatusReportSectionDivider-plusCircleFill {
+    color: #fefefe;
+    fill: #fefefe
+}
+
+.StatusReportSectionDivider:hover .StatusReportSectionDivider-line {
+    background: #fefefe
+}
+
+.DraggableSidebarListCard-placeholderRow {
+    background-color: #424242;
+}
+
+.Typography--colorDarkGray2 {
+    color: #fefefe50
+}
