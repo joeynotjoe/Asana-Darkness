@@ -3863,7 +3863,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .simpleTextarea.simpleTextarea--dynamic {
-    background-color: #212121
+    background-color: #21212100;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 .simpleTextarea,
@@ -5661,13 +5664,6 @@ div.tooltip-body {
     background-color: #424242;
 }
 
-.InboxTimeSeparator {
-    background: #424242;
-    border-bottom: 1px solid #42424270;
-    color: #fefefe;
-    font-weight: 400;
-}
-
 .PageToolbarPlaceholder-leftChild,
 .PageToolbarPlaceholder-rightChild,
 .TopbarPageHeaderPlaceholder-title,
@@ -6521,4 +6517,128 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .Typography--colorDarkGray2 {
     color: #fefefe50
+}
+
+.MultiSelectToolbarButtons-extrasPopover {
+    max-height: 600px;
+}
+
+.UserDeveloperConsoleHeader {
+    background-color: #212121;
+    color: #fefefe
+}
+
+.AppDetails {
+    background-color: #212121
+}
+
+.AppDetails-navigationBar {
+    border-bottom: 1px solid #424242;
+}
+
+.TextboxWithButtonAndTimeout {
+    background-color: #303030;
+    border-color: #424242
+}
+
+.Button.Button--disabled.Button--secondary {
+    border-color: #424242
+}
+
+.UserDeveloperConsole {
+    background-color: #212121;
+}
+
+.AppListItem {
+    background-color: #303030;
+    color: #fefefe;
+    fill: #fefefe
+}
+
+.AddAppTile {
+    border-color: #424242
+}
+
+.AddPersonalAccessTokenRow {
+    border-color: #424242
+}
+
+.InboxTimeSeparator {
+    background: #212121;
+    border-bottom: 1px solid #424242;
+    color: #fefefe;
+}
+
+.InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected {
+    background: #212121
+}
+
+.InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected:hover,
+.InboxClarifiedExpandableThread:hover {
+    background: #303030
+}
+
+.InboxClarifiedIconAndText-name {
+    color: #fefefe
+}
+
+.StoryActorName-actorName {
+    color: #fefefe;
+    font-weight: 700
+}
+
+.InboxClarifiedThreadHeader-unviewedCommentCount,
+.InboxClarifiedThreadHeader-unviewedIndicator {
+    background: #009688
+}
+
+.InboxClarifiedThreadHeader-urgencyIndicator {
+    background-color: #424242;
+}
+
+.SubtleToggleButton--isPressed.AbstractThemeableRectangularButton {
+    background: #303030;
+    border-color: #424242;
+    color: #009688;
+    fill: #009688
+}
+
+.SubtleToggleButton--isPressed.AbstractThemeableRectangularButton--isEnabled:hover,
+.SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #009688;
+    border-color: #009688;
+    color: #fefefe;
+    fill: #fefefe;
+}
+
+.AddedToMembershipDetailStructure-toolbarTitle {
+    color: #009688;
+    fill: #009688;
+    font-family: Lato, Source Sans Pro, IBM Plex Sans, -Apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+}
+
+.Inbox-detailsPane--clarified {
+    border-color: #424242
+}
+
+.TaskAddedToPotInboxClarifiedThread.TaskAddedToPotInboxClarifiedThread--selectable:hover {
+    background-color: #303030
+}
+
+.InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner {
+    background-color: #424242;
+    border-color: #666;
+}
+
+.InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner:hover {
+    background-color: #009688
+}
+
+.InboxClarifiedReferencedTaskItem-milestoneName,
+.InboxClarifiedReferencedTaskItem-taskName {
+    color: #fefefe
 }
