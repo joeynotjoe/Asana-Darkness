@@ -1222,6 +1222,12 @@ right_pane {
     border-color: #42424270;
 }
 
+.SpreadsheetHeaderLeftStructure.SpreadsheetHeaderLeftStructure--isDropdownOpen,
+.SpreadsheetHeaderLeftStructure.SpreadsheetHeaderLeftStructure--isSortedByField {
+    color: #777;
+    fill: #777
+}
+
 .SpreadsheetGridTaskNameCell:hover .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
     background: #303030;
     border-color: #42424270;
@@ -6570,7 +6576,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected {
-    background: #212121
+    background: #303030
 }
 
 .InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected:hover,
@@ -6641,4 +6647,52 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .InboxClarifiedReferencedTaskItem-milestoneName,
 .InboxClarifiedReferencedTaskItem-taskName {
     color: #fefefe
+}
+
+.InboxClarifiedReferencedTaskItem:hover .InboxClarifiedReferencedTaskItem-inner,
+.InboxClarifiedReferencedTaskItem--animatingCompletion .InboxClarifiedReferencedTaskItem-inner {
+    background-color: #303030;
+}
+
+.InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner--last {
+    border-bottom: solid 1px #424242;
+}
+
+.IconButton.IconButton--enabled:active,
+.IconButton.IconButton--enabled.IconButton--active {
+    fill: #009688
+}
+
+.StaticMenuItemBase-button {
+    color: #fefefe
+}
+
+.StaticMenuItemBase-button:hover {
+    color: #fefefe
+}
+
+.StaticMenuItemBase-button.is-highlighted {
+    background-color: #424242
+}
+
+.MultiColorIcon--unselected .MultiColorIcon-path--fadedBlack {
+    fill: #fefefe75
+}
+
+.MultiColorIcon--unselected .MultiColorIcon-path--white {
+    fill: #212121
+}
+
+.SecondaryButton.AbstractThemeableRectangularButton {
+    background: #303030;
+    border-color: #424242;
+    color: #fefefe;
+    fill: #fefefe
+}
+
+.SecondaryButton.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #424242;
+    border-color: #666;
+    color: #fefefe;
+    fill: #fefefe
 }
