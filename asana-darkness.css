@@ -3612,9 +3612,9 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .DueDateContainer:not(.DueDateContainer--disabled).DueDateContainer--unset:hover {
     background-color: #e2e2e2;
     border-color: #e2e2e2;
-    box-shadow: 0 0 0 3px #32c1ff;
-    color: #32c1ff;
-    fill: #32c1ff
+    box-shadow: 0 0 0 3px #009688;
+    color: #009688;
+    fill: #009688
 }
 
 .CardButton:focus:not(.CardButton--disabled),
@@ -6690,9 +6690,81 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     fill: #fefefe
 }
 
-.SecondaryButton.AbstractThemeableRectangularButton--isEnabled:hover {
+.SecondaryButton.AbstractThemeableRectangularButton--isEnabled:hover,
+.SubtleButton.AbstractThemeableRectangularButton--isEnabled:hover {
     background: #424242;
-    border-color: #666;
+    border-color: #424242;
     color: #fefefe;
     fill: #fefefe
+}
+
+.SeparatorRow {
+    padding-top: 15px
+}
+
+.TaskStoryFeed .SeparatorRow-horizontalLine {
+    border-color: #009688;
+}
+
+.TaskStoryFeed .SeparatorRow-label {
+    color: #009688;
+    font-weight: 800;
+}
+
+.TaskCompletionToggleButton--isNotPressed.AbstractThemeableRectangularButton {
+    background: #303030;
+    border-color: #424242;
+    color: #fefefe;
+    fill: #fefefe;
+}
+
+.TaskCompletionToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #009688;
+    border-color: #009688;
+    color: #fefefe;
+    fill: #fefefe;
+}
+
+.TaskAncestry-ancestorLink:hover,
+.TaskAncestry-ancestorLink:focus {
+    border-bottom: 1px solid #009688;
+    color: #009688;
+    fill: #009688;
+    outline: none;
+    text-decoration: none;
+}
+
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete .CompoundIcon-outer {
+    fill: #424242;
+    stroke: #666;
+}
+
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete .CompoundIcon-inner {
+    fill: #fefefe;
+}
+
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--complete .CompoundIcon-outer {
+    fill: #009688;
+    stroke: #009688;
+}
+
+.TaskCompletionToggleButton--isPressed.AbstractThemeableRectangularButton {
+    background: #009688;
+    border-color: #009688;
+    color: #fff;
+    fill: #fff;
+}
+
+.ChipWithIcon--withIconFill {
+    background-color: #303030;
+    border-color: #424242
+}
+
+.DeprecatedTaskRow:not(.DeprecatedTaskRow--borderless)::after {
+    border-bottom: 1px solid #30303050;
+    color: #fefefe
+}
+
+.DeprecatedTaskRow.ItemRow--enabled:not(.ItemRow--focused):not(.ItemRow--highlighted):hover {
+    background-color: #303030
 }
