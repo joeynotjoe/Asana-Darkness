@@ -6768,3 +6768,50 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .DeprecatedTaskRow.ItemRow--enabled:not(.ItemRow--focused):not(.ItemRow--highlighted):hover {
     background-color: #303030
 }
+
+.ProfileSettingsDialogAccountContent-section {
+    color: #fefefe;
+}
+
+.ProfileSettingsDialogAccountContent-domainName {
+    color: #009688;
+}
+
+.EmailNotificationsSettingsContent-emailFlow,
+.ProfileSettingsDialogAccountContent-section:not(:last-child),
+.ProfileSettingsDialog-emailFlow,
+.AuthorizedAppRow,
+.ApiApps-divider,
+.HacksDialogContent-row:not(:last-child),
+.TeamSettingsDialogAdvancedTabContent-deleteTeamSettings {
+    border-color: #424242;
+}
+
+.AutogrowTextarea-shadow,
+.simpleTextarea {
+    border-color: #424242;
+}
+
+textarea {
+    background-color: #303030;
+    border-color: #424242;
+}
+
+.TeamSettingsDialogListRow:hover:not(.TeamSettingsDialogList-row--viewOnly) {
+    background-color: #303030;
+}
+
+.TeamMembersSection-addMemberButtonRow {
+    color: #e2e2e2;
+    fill: #e2e2e2
+}
+
+.TeamMembersSection-addMemberButtonRow:hover {
+    color: #009688;
+    fill: #009688;
+}
+
+.SidebarTopNavLinks-typeIcon,
+.is-selected .SidebarTopNavLinks-typeIcon {
+    fill: #e2e2e2
+}
