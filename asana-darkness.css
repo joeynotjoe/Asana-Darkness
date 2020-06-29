@@ -82,6 +82,17 @@ html {
     animation: none
 }
 
+.PrimaryLink {
+    color: #009688;
+    fill: #009688;
+}
+
+.PrimaryLink:hover,
+.PrimaryLink:focus {
+    color: #fefefe;
+    fill: #fefefe
+}
+
 .TypeaheadItem-title {
     color: #009688
 }
@@ -97,7 +108,22 @@ html {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-variant-numeric: tabular-nums
+    font-variant-numeric: tabular-nums;
+    border-color: #424242;
+    color: #009688;
+    fill: #009688
+}
+
+.MultiAssignTypeaheadItem {
+    border-color: #424242;
+    color: #009688;
+    fill: #009688;
+}
+
+.MultiAssignTypeaheadItem--highlighted {
+    background-color: #424242;
+    color: #fefefe;
+    fill: #fefefe;
 }
 
 .TypeaheadCreateItem.TypeaheadCreateItem--highlighted,
@@ -720,12 +746,51 @@ a.NavigationLink.topbar-notificationsButton.is-selected {
     box-shadow: none;
 }
 
+.ButtonGroupButton--isSelected.AbstractThemeableRectangularButton {
+    background: #009688;
+    border-color: #009688;
+}
+
+.ButtonGroupButton--isNotSelected.AbstractThemeableRectangularButton {
+    background: #303030;
+    border-color: #424242;
+    color: #fefefe75;
+    fill: #fefefe75;
+}
+
+.ButtonGroupButton--isNotSelected.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #009688;
+    border-color: #009688;
+    color: #fff;
+    fill: #fff;
+}
+
+.ButtonGroupButton--isSelected.AbstractThemeableRectangularButton--isEnabled:focus {
+    box-shadow: 0 0 0 3px #009688;
+    outline: none;
+}
+
+.ButtonGroupButton--isSelected.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #009688;
+    border-color: #009688;
+    color: #fff;
+    fill: #fff;
+}
+
 .FormElementButton.FormElementButton--standard:not(.FormElementButton--disabled).FormElementButton--active {
     background: #303030;
     border: 1px solid #42424270;
     box-shadow: inset 0 1px rgba(0, 0, 0, .1);
     color: #777;
     fill: #303030
+}
+
+.SubtleButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.SubtleButton.AbstractThemeableRectangularButton--isEnabled:active {
+    background: #009688;
+    border-color: #009688;
+    color: #fefefe;
+    fill: #fefefe;
 }
 
 .DeprecatedDropdownContainer,
@@ -5128,6 +5193,11 @@ div.tooltip-body {
     border-bottom: 1px solid #42424270 !important;
 }
 
+.InboxFeedFooter:hover {
+    background: #303030;
+    border-bottom: 1px solid #424242;
+}
+
 .InboxReferencedTaskItem {
     background-color: #303030;
     border: 1px solid #42424270;
@@ -6600,6 +6670,19 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .InboxClarifiedThreadHeader-urgencyIndicator {
     background-color: #424242;
+}
+
+.InboxClarifiedExpandableThread-floatingButtonsContainer {
+    background-color: #424242;
+    border-color: #424242
+}
+
+.SubtleIconButton.AbstractThemeableIconButton {
+    fill: #fefefe90;
+}
+
+.SubtleIconButton.AbstractThemeableIconButton--isEnabled:hover {
+    fill: #009688;
 }
 
 .SubtleToggleButton--isPressed.AbstractThemeableRectangularButton {
