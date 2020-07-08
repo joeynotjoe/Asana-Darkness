@@ -6677,6 +6677,13 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     border-color: #424242
 }
 
+.MilestonesListRow-name {
+    color: #fefefe;
+}
+.BoardCard-milestoneIndicator .MilestoneIndicator-label {
+    color: #fefefe;
+}
+
 .SubtleIconButton.AbstractThemeableIconButton {
     fill: #fefefe90;
 }
