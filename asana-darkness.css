@@ -6680,6 +6680,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .MilestonesListRow-name {
     color: #fefefe;
 }
+
 .BoardCard-milestoneIndicator .MilestoneIndicator-label {
     color: #fefefe;
 }
@@ -6904,4 +6905,124 @@ textarea {
 .SidebarTopNavLinks-typeIcon,
 .is-selected .SidebarTopNavLinks-typeIcon {
     fill: #e2e2e2
+}
+
+.StickerPickerContainer {
+    background-color: #303030;
+    border: 1px solid #424242;
+}
+
+.StickerPicker-sticker:hover {
+    background-color: #424242;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton,
+.SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton {
+    background: #212121;
+    border-color: #424242;
+    color: #fff;
+    fill: #fff
+}
+
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:hover,
+.SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #424242;
+    border-color: #424242;
+    color: #fff;
+    fill: #fff;
+}
+
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:active,
+.SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:active {
+    background: #424242;
+    border-color: #424242;
+    color: #fefefe;
+    fill: #fefefe;
+}
+
+.HiddenNavigationLink.HiddenNavigationLink--darkGray3 {
+    color: #fefefe;
+    fill: #fefefe
+}
+
+.TaskAddedToPotInboxClarifiedThread-floatingButtonsContainer {
+    background: #303030;
+    border-color: #424242
+}
+
+.TaskAddedToPotInboxClarifiedThread-floatingButtonsContainer {
+    border-color: #424242
+}
+
+.SecondaryIconButton.AbstractThemeableIconButton {
+    background: #212121;
+    border-color: #fefefe;
+    fill: #fefefe;
+}
+
+.SecondaryIconButton.AbstractThemeableIconButton--isEnabled:hover {
+    background: #009688;
+    border-color: #009688;
+    fill: #fefefe;
+}
+
+.SubtleButton.AbstractThemeableRectangularButton {
+    color: #fefefe95;
+    fill: #fefefe95;
+}
+
+.SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled:active {
+    background: #009688;
+    border-color: #009688
+}
+
+.SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled:active {
+    color: #fff;
+    fill: #fff
+}
+
+.SpreadsheetTaskRow--withoutShadedBackground:hover,
+.SpreadsheetTaskRow--contextMenuOpened,
+.SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetPlaceholderCell,
+.SpreadsheetTaskRow--contextMenuOpened .SpreadsheetPlaceholderCell,
+.SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetCell,
+.SpreadsheetTaskRow--contextMenuOpened .SpreadsheetCell {
+    background-color: #303030 !important;
+}
+
+.MyTasksGridRow--contextMenuOpen .ItemRow {
+    background-color: #424242;
+    border-color: #424242
+}
+
+.CustomPropertyTextEditablePreviewCell--isInsideCell .CustomPropertyTextEditablePreviewCell-input::placeholder {
+    color: #fefefe
+}
+
+.HiddenLinkButton.HiddenLinkButton--darkGray1:hover,
+.HiddenLinkButton.HiddenLinkButton--darkGray1:focus {
+    border-bottom-style: none;
+    color: #009688;
+    fill: #009688;
+}
+
+.BoardColumnDropPlaceholder {
+    background: #212121;
+    border-color: #424242;
+    color: #009688;
+    fill: #009688;
+}
+
+.ProgressPublishedReportSection-emptyStatusImg {
+    filter: invert(80%)
+}
+
+.ProjectProgressV2-scrollable {
+    background-color: #303030
 }
