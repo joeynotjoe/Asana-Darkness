@@ -7026,3 +7026,90 @@ textarea {
 .ProjectProgressV2-scrollable {
     background-color: #303030
 }
+
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton,
+.PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton {
+    background: #009688;
+    border-color: #009688;
+}
+
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:hover,
+.PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #00bdab;
+    border-color: #00bdab;
+}
+
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:active,
+.PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
+.PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:active {
+    background: #00bdab;
+    border-color: #00bdab;
+}
+
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:focus,
+.PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:focus {
+    box-shadow: 0 0 0 3px #00ffe7;
+}
+
+.IconAvatar--gold {
+    background-color: #fefefe50;
+    fill: #fcbd01;
+}
+
+.AvatarBadge-badge--colorGreen.AvatarBadge-badge--shapeCircle,
+.AvatarBadge-badge--colorGreen.AvatarBadge-badge--shapeSquare,
+.AvatarBadge-badge--colorGreen .AvatarBadge-diamondBadge {
+    background-color: #009688
+}
+
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeCircle,
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeSquare,
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-diamondBadge,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeCircle,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeSquare,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-diamondBadge {
+    box-shadow: 0 0 0 2px #fefefe;
+}
+
+.GoalPromotionOverlay-container {
+    background: #212121;
+}
+
+.PrimaryNavigationLink,
+.PrimaryNavigationLink:hover,
+.PrimaryNavigationLink:focus {
+    color: #009688;
+    fill: #009688;
+}
+
+.HubViewMenu-button:hover,
+.HubViewMenu-button:focus,
+.HubSection-titleWithCollapseToggle:hover .HubSection-triangleToggle {
+    fill: #009688
+}
+
+.MonthPicker-header {
+    border-color: #424242
+}
+
+.MonthPicker-month {
+    color: #fefefe95
+}
+
+.MonthPicker-month:hover {
+    color: #009688;
+}
+
+.MonthPicker-month--isSelected::after {
+    background-color: #009688;
+}
+
+.SidebarTeamMembershipHeader-teamName {
+    font-family: Lato, Source Sans Pro, IBM Plex Sans, -Apple-system, BlinkMacSystemFont, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-numeric: tabular-nums;
+    color: #fefefe70;
+}

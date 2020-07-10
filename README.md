@@ -1,7 +1,7 @@
 # Asana Darkness
 A somewhat convoluted but highly usable stylesheet for Asana, to turn the lights down significantly. Since Asana has shown zero interest in implementing this themselves, I've been maintaining my own for years now.
 
-![Screenshot of Asan Darkness](https://i.imgur.com/69HO4PU.jpg)
+![Screenshot of Asana Darkness](https://i.imgur.com/69HO4PU.jpg)
 
 #### WARNING :)
 I created this theme with a severe lack of understanding of most CSS, but I hacked at it long enough to where it's usable for how I personally use Asana, so...
