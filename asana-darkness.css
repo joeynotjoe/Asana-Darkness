@@ -6592,7 +6592,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .Typography--colorDarkGray2 {
-    color: #fefefe50
+    color: #fefefe
 }
 
 .MultiSelectToolbarButtons-extrasPopover {
@@ -7112,4 +7112,13 @@ textarea {
     -moz-osx-font-smoothing: grayscale;
     font-variant-numeric: tabular-nums;
     color: #fefefe70;
+}
+
+.FullWidthPageStructureWithDetailsOverlay {
+    background: #212121;
+}
+
+.FullWidthPageStructureWithDetailsOverlay-detailsOverlay {
+    background: #212121;
+    border-color: #42424270
 }
