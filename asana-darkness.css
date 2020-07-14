@@ -1331,6 +1331,27 @@ right_pane {
     background: #424242
 }
 
+.CustomPropertyTypeahead-typeaheadHeader {
+    background: #303030;
+}
+
+.CustomPropertyProtoMultiRowTypeaheadItem--highlighted .CustomPropertyProtoMultiRowTypeaheadItem-content {
+    background: #303030;
+}
+
+.CustomPropertyProtoMultiRowTypeaheadItem--highlighted::before,
+.CustomPropertyProtoMultiRowTypeaheadItem--selected::before {
+    border-color: #42424270
+}
+
+.CustomPropertyProtoMultiRowTypeaheadItem-separator {
+    border-color: #42424270;
+}
+
+.CustomPropertyProtoMultiRowTypeaheadItem-description {
+    color: #777
+}
+
 .Dialog-header {
     border-bottom: 1px solid #42424270
 }
@@ -7121,4 +7142,9 @@ textarea {
 .FullWidthPageStructureWithDetailsOverlay-detailsOverlay {
     background: #212121;
     border-color: #42424270
+}
+
+.MeasuredLoadingState-placeholder {
+    background-color: #424242;
+    background-image: linear-gradient(-90deg, #424242 0%, #303030 50%, #424242 100%);
 }
