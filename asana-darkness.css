@@ -6057,6 +6057,16 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     background: #212121
 }
 
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover {
+    background-color: #303030;
+}
+
+.ProjectSpreadsheetAddTaskAndAggregationRow-border,
+.ProjectSpreadsheetAddTaskAndAggregationRow-dragHandlePlaceholder,
+.ProjectSpreadsheetAddTaskAndAggregationRow-rightGutter {
+    border-color: #42424275
+}
+
 .TeamSettingsDialogListRow-name {
     color: #fefefe
 }
@@ -7147,4 +7157,27 @@ textarea {
 .MeasuredLoadingState-placeholder {
     background-color: #424242;
     background-image: linear-gradient(-90deg, #424242 0%, #303030 50%, #424242 100%);
+}
+
+.LoginContent,
+.LoginContent-container,
+.LoginContent-postFormForPassword {
+    background-color: #212121;
+}
+
+.LoginContent-logInText {
+    color: #fefefe;
+}
+
+.SeparatorRow-horizontalLine {
+    border-color: #424242;
+}
+
+.LoginContent-separatorRowLabel {
+    color: #424242 !important
+}
+
+.LoginContent input {
+    background-color: #fefefe15;
+
 }
