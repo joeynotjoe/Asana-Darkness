@@ -11,4 +11,4 @@ If you like it, cool! Feel free to use it and or make it way better, but you're 
 It works for me, though!
 
 # Installation
-You can install it quickly on the [userstyles.org](https://userstyles.org/styles/150563/asana-darkness) page, or you can grab the .css file here on GitHub.
+You can install it using the extension Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), or you can grab the [css](https://github.com/joeynotjoe/Asana-Darkness/blob/master/asana-darkness.css) file here on GitHub.
