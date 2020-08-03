@@ -7181,3 +7181,29 @@ textarea {
     background-color: #fefefe15;
 
 }
+
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate.InboxClarifiedExpandableThread--selected {
+    background: #303030
+}
+
+.InboxFeed-threadCommunicationsInboxFeedStyleUpdate,
+.InboxFeed-threadCommunicationsInboxFeedStyleUpdate:hover {
+    border-color: #42424275
+}
+
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover {
+    color: #fefefe;
+}
+
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
+    color: #fefefe75
+}
+
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate .StoryActorName-actorName,
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .StoryActorName-actorName {
+    color: #009688;
+}
+
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate {
+    color: #fefefe
+}
