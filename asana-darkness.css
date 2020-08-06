@@ -6759,7 +6759,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner {
     background-color: #424242;
-    border-color: #666;
+    border-color: #424242;
 }
 
 .InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner:hover {
@@ -7182,7 +7182,8 @@ textarea {
 
 }
 
-.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate.InboxClarifiedExpandableThread--selected {
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate.InboxClarifiedExpandableThread--selected,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate.TaskAddedToPotInboxClarifiedThread--selected {
     background: #303030
 }
 
@@ -7205,5 +7206,19 @@ textarea {
 }
 
 .InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate {
+    color: #fefefe
+}
+
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate,
+.InboxClarifiedReferencedTaskItem-milestoneNameCommunicationsInboxFeedStyleUpdate,
+.InboxClarifiedReferencedTaskItem-taskNameCommunicationsInboxFeedStyleUpdate,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedReferencedTaskItem-milestoneNameCommunicationsInboxFeedStyleUpdate,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedReferencedTaskItem-taskNameCommunicationsInboxFeedStyleUpdate,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover,
+.HiddenNavigationLink.HiddenNavigationLink--darkGray2 {
+    color: #fefefe;
+}
+
+.MarkText {
     color: #fefefe
 }
