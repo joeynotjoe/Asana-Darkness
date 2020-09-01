@@ -426,8 +426,13 @@ html {
 }
 
 .MessageBanner--default {
-    background-color: #009688;
-    color: #e2e2e2
+    background-color: #212121;
+    color: #e2e2e2;
+    border-bottom: 1px solid #42424250;
+}
+
+.TaskPrivacyBanner-lockIcon {
+    fill: #696969
 }
 
 .MessageBanner--default a {
@@ -5538,7 +5543,8 @@ div.tooltip-body {
     fill: #fefefe70;
 }
 
-.CountWithIcon--clickable:hover {
+.CountWithIcon--clickable:hover,
+.CountWithIcon--grayscale.CountWithIcon--clickable:hover {
     color: #009688;
     fill: #009688;
 }
@@ -7221,4 +7227,45 @@ textarea {
 
 .MarkText {
     color: #fefefe
+}
+
+.CardGallery-sidebar {
+    background-color: #303030
+}
+
+.AppGalleryHeader-dialogHeader {
+    border-color: #424242;
+}
+
+.ConsoleCard {
+    background: #303030;
+    border-color: #424242;
+}
+
+.ConsoleCard-title {
+    color: #fefefe
+}
+
+.PrimaryLinkButton {
+    color: #009688;
+    fill: #009688;
+}
+
+.PrimaryLinkButton:hover,
+.PrimaryLinkButton:focus {
+    color: #00968890;
+    fill: #00968890;
+}
+
+.CardRadioButton.CardRadioButton--isSelected {
+    border-color: #009688;
+}
+
+.PrimaryButton.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--isDisabled {
+    background: #303030;
+    border-color: #303030
+}
+
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
+    color: #696969
 }
