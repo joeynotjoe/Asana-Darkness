@@ -4628,7 +4628,8 @@ strong {
 .TokenButton-icon {
     background-color: #303030;
     color: #fefefe;
-    fill: #fefefe
+    fill: #fefefe;
+    border: 0px solid #000
 }
 
 .TopbarPageHeaderView-title,
@@ -6759,6 +6760,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     border-color: #424242
 }
 
+.TaskAddedToPotInboxClarifiedThread:hover .InboxClarifiedIconAndNameContext-name {
+    color: #fefefe75
+}
+
 .MilestonesListRow-name {
     color: #fefefe;
 }
@@ -7060,6 +7065,13 @@ textarea {
 .SubtleButton.AbstractThemeableRectangularButton {
     color: #fefefe95;
     fill: #fefefe95;
+}
+
+.SubtleButton.AbstractThemeableRectangularButton--isEnabled:focus:not(.AbstractThemeableRectangularButton--isActive):not(:active):not(:hover) {
+    color: #fefefe;
+    background-color: #009688;
+    fill: #fefefe;
+    border-color: #009688;
 }
 
 .SubtleToggleButton--isNotPressed.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive,
