@@ -73,8 +73,13 @@ html {
 .react-mount-node .dropdownMenuOption-label,
 .task-row-text-input,
 .task-row-text-input.override-focus-border,
-.task-row-text-input.override-focus-border.override-hover-border {
+.task-row-text-input.override-focus-border.override-hover-border,
+.FollowersLabel {
     color: #e2e2e2
+}
+
+.FollowersBar .EditableFollowersRow {
+    background-color: #262626
 }
 
 .TopbarPlaceholder-searchBox:focus,
@@ -887,7 +892,7 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
 .navigationDockTeamView--expanded+.navigationDockTeamView--expanded,
 .navigationDockTeamView:first-of-type,
 .react-mount-node .Sidebar {
-    background: #21212170;
+    background: #1C1C1C;
     border-right: 1px solid #42424270
 }
 
@@ -3934,9 +3939,12 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .SingleTaskPane-header,
 .MultiTaskPane-header,
-.SingleTaskPaneSpreadsheet-header,
 .SingleTaskPaneSpreadsheet-body {
     background: #212121;
+}
+
+.SingleTaskPaneSpreadsheet-header {
+    background: #1C1C1C;
 }
 
 .SingleTaskPaneSpreadsheet-feed {
@@ -4602,6 +4610,13 @@ strong {
     color: #fefefe70;
     fill: #fefefe70;
     border-color: #fefefe70
+}
+
+.ToggleBellButton-toggleText,
+.ToggleBellButton-toggleButton .Icon {
+    color: #009688;
+    fill: #009688;
+    border-color: #009688;
 }
 
 .TokenButton--hasValue>.TokenButton-icon {
@@ -6677,9 +6692,35 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .InboxTimeSeparator {
-    background: #212121;
-    border-bottom: 1px solid #424242;
+    background: #1C1C1C;
+    border-color: #42424270;
     color: #fefefe;
+}
+
+.InboxClarifiedExpandableThread,
+.TaskAddedToPotInboxClarifiedThread {
+    color: #fefefe75
+}
+
+.TaskAddedToPotInboxClarifiedThread:hover {
+    color: #fefefe
+}
+
+.TaskAddedToPotInboxClarifiedThread:hover .InboxClarifiedReferencedTaskItem-taskName {
+    color: #fefefe
+}
+
+.InboxClarifiedIconAndNameContext-name {
+    color: #fefefe75
+}
+
+.InboxClarifiedExpandableThread:hover,
+.InboxClarifiedExpandableThread:hover .InboxClarifiedIconAndNameContext-name {
+    color: #fefefe
+}
+
+.InboxClarifiedExpandableThread:hover .StoryActorName-actorName {
+    color: #009688;
 }
 
 .InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected {
@@ -6693,6 +6734,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .InboxClarifiedIconAndText-name {
     color: #fefefe
+}
+
+.InboxFeed-thread:hover {
+    border-color: #42424275
 }
 
 .StoryActorName-actorName {
@@ -6755,8 +6800,9 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     font-variant-numeric: tabular-nums;
 }
 
-.Inbox-detailsPane--clarified {
-    border-color: #424242
+.Inbox-detailsPane--clarified,
+.Inbox-detailsPane {
+    border-color: #42424270
 }
 
 .TaskAddedToPotInboxClarifiedThread.TaskAddedToPotInboxClarifiedThread--selectable:hover {
@@ -7207,7 +7253,9 @@ textarea {
 }
 
 .InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate .StoryActorName-actorName,
-.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .StoryActorName-actorName {
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .StoryActorName-actorName,
+.InboxClarifiedExpandableThread .StoryActorName-actorName,
+.InboxClarifiedExpandableThread .StoryActorName-actorName:hover {
     color: #009688;
 }
 
