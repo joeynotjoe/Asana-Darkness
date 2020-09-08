@@ -6809,6 +6809,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
     background-color: #303030
 }
 
+.TaskAddedToPotInboxClarifiedThread.TaskAddedToPotInboxClarifiedThread--selected {
+    background-color: #303030;
+}
+
 .InboxClarifiedReferencedTaskItem-inner.InboxClarifiedReferencedTaskItem-inner {
     background-color: #424242;
     border-color: #424242;
