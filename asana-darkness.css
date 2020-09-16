@@ -998,11 +998,6 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
     border-color: #009688
 }
 
-.TaskRowCompletionStatus-checkbox {
-    background: 0 0;
-    border: 1px solid #303030
-}
-
 .FormElementButton.FormElementButton--dynamic:not(.FormElementButton--disabled):focus,
 .FormElementButton.FormElementButton--dynamic:not(.FormElementButton--disabled):hover {
     background-color: #424242;
@@ -7332,4 +7327,88 @@ textarea {
 
 .TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
     color: #696969
+}
+
+.CardButton--isBoardsRevampEnabled.AbstractThemeableRectangularButton {
+    background: #303030;
+    border-color: #42424270;
+    fill: #fefefe;
+    color: #fefefe;
+}
+
+.CardButton--isBoardsRevampEnabled.AbstractThemeableRectangularButton--isEnabled:hover {
+    background: #424242;
+    border-color: #424242;
+    fill: #fefefe;
+    color: #fefefe;
+}
+
+.BoardCardLayout {
+    background: #303030;
+}
+
+.DraggableCardV2 {
+    border-color: #42424270;
+}
+
+.DraggableCardV2:hover {
+    border-color: #424242;
+}
+
+.DraggableCardV2.DraggableCardV2--isHighlighted {
+    border-color: #009688;
+}
+
+.BoardCardLayout.BoardCardLayout--isHighlighted {
+    background-color: #424242;
+}
+
+.FloatingToolbar {
+    background: #424242;
+    border-color: #424242;
+}
+
+.Tab-link {
+    color: #696969;
+}
+
+.TaskRowCompletionStatus-checkbox .TaskRowCompletionStatus-taskCompletionIcon--incomplete:hover .CompoundIcon-outer,
+.TaskRowCompletionStatus-checkbox .TaskRowCompletionStatus-taskCompletionIcon--incomplete.TaskRowCompletionStatus--active .CompoundIcon-outer {
+    fill: #009688;
+    stroke: #009688;
+    transition: 200ms fill, 200ms stroke;
+}
+
+.FloatingCard.BaseCard {
+    background: #424242;
+    border-color: #424242;
+}
+
+.LoadingPlaceholderButton {
+    background-color: #303030;
+    background-image: none;
+}
+
+.InboxClarifiedStoryStructure-richTextWithQuotationsWrapper {
+    color: #fefefe90;
+}
+
+.InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected:hover,
+.InboxClarifiedExpandableThread:hover .InboxClarifiedStoryStructure-richTextWithQuotationsWrapper {
+    color: #fefefe;
+}
+
+.ProjectPage-dashboard,
+.ProjectDashboardSummaryCountCard {
+    background-color: #212121;
+}
+
+.HiddenLinkButton.HiddenLinkButton--darkGray2 {
+    color: #fefefe;
+}
+
+.DashboardCard,
+.NumericRollupCard {
+    background-color: #303030;
+    border-color: #42424275;
 }
