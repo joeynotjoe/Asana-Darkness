@@ -7412,3 +7412,54 @@ textarea {
     background-color: #303030;
     border-color: #42424275;
 }
+
+.TextEditor2.TextEditor2--focused, .TextEditor2.TextEditor2--dynamic.TextEditor2--focused {
+    border-color: #42424275;
+    box-shadow: inset 0 1px #42424275;
+}
+
+.TextEditorStickyBottomBar {
+    background: #212121;
+}
+
+.TextEditorStickyBottomBar.TextEditorStickyBottomBar--pinned {
+    border-color: #424242;
+}
+
+.TextEditorToolbar-leftContainer::after {
+    border-color: #424242;
+}
+
+.SubtleIconToggleButton--isNotPressed.AbstractThemeableIconButton {
+    fill: #fefefe50;
+}
+
+.SubtleIconToggleButton--isNotPressed.AbstractThemeableIconButton--isEnabled:hover {
+    fill: #009688;
+}
+
+.SubtleIconToggleButton--isPressed.AbstractThemeableIconButton {
+    fill: #009688;
+}
+
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled.BaseCard {
+    background: #303030;
+    border-color: #42424275;
+}
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
+    background: #424242;
+    border-color: #424242;
+}
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled.BaseCard,
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
+    background: #009688;
+    border-color: #009688;
+}
+
+body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
+    box-shadow: 0 0 0 3px #009688;
+}
+
+.TextEditor2.TextEditor2--dynamic:hover {
+    border-color: #424242;
+}
