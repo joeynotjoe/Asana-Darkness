@@ -3930,6 +3930,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-color: #424242;
   color: #fefefe;
 }
+
 .dashboard-card {
   background: #303030;
 }
@@ -6538,10 +6539,13 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   box-shadow: 0 0 0 1px #424242;
 }
 
+.ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+  background: #212121;
+  border-color: #424242;
+}
 .ProjectSpreadsheetAggregationRow-stickyCell,
 .ProjectSpreadsheetAddTaskAndAggregationRow:hover
-  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell,
-.ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
 }
 
@@ -7991,10 +7995,12 @@ textarea {
   background: #303030;
   border-color: #42424275;
 }
+
 .BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
   background: #424242;
   border-color: #424242;
 }
+
 .BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled.BaseCard,
 .BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
   background: #009688;
@@ -8026,4 +8032,3 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .PopOutStructure {
   background: #424242;
 }
-  
