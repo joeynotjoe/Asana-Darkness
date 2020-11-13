@@ -1413,6 +1413,9 @@ right_pane {
 	color: #fefefe75;
 	fill: #fefefe75;
 }
+.TaskTags {
+    padding-left: 3px;
+}
 
 .react-mount-node .CompletionCheckbox .CircularToggleButton .CircularToggleButton-pulse,
 .react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOn .CircularButton,
