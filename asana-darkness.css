@@ -8085,3 +8085,21 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .DeprecatedHiddenLinkButton.DeprecatedHiddenLinkButton--darkTeal {
   color: #009688;
 }
+
+.BoardCard-taskName {
+  font-weight: 500;
+}
+
+.ExpandedUpsellsOverlayStructure {
+  background: #212121;
+}
+
+.BaseSelectableCard--isEnabled.BaseSelectableCard--isSelected.BaseCard {
+  background: #303030;
+  border-color: #424242;
+}
+
+.InboxClarifiedExpandableThread:hover
+  .InboxClarifiedIconAndNameContext-name--withDefaultColors {
+  color: #009688;
+}
