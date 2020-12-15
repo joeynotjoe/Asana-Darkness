@@ -7932,7 +7932,8 @@ textarea {
   transition: 200ms fill, 200ms stroke;
 }
 
-.FloatingCard.BaseCard {
+.FloatingCard.BaseCard,
+.FloatingCard.BaseCard.BaseCard--isValid {
   background: #424242;
   border-color: #424242;
 }
@@ -7999,18 +8000,22 @@ textarea {
   fill: #fefefe;
 }
 
-.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled.BaseCard {
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled.BaseCard,
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled.BaseCard.BaseCard--isValid {
   background: #303030;
   border-color: #42424275;
 }
 
-.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard,
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard.BaseCard--isValid {
   background: #424242;
   border-color: #424242;
 }
 
 .BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled.BaseCard,
-.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled:hover.BaseCard,
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled:hover.BaseCard.BaseCard--isValid,
+.BaseDraggableCard.BaseDraggableCard--default.BaseSelectableCard--isSelected.BaseSelectableCard--isEnabled.BaseCard.BaseCard--isValid {
   background: #009688;
   border-color: #009688;
 }
@@ -8102,4 +8107,11 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .InboxClarifiedExpandableThread:hover
   .InboxClarifiedIconAndNameContext-name--withDefaultColors {
   color: #009688;
+}
+
+.DailySummaryInboxThread.DailySummaryInboxThread--selected {
+  background: #303030;
+}
+.FloatingCard.BaseCard:not(:focus):not(.BaseCard--isFocused) {
+  box-shadow: none;
 }
