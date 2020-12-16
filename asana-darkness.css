@@ -3345,6 +3345,15 @@ textarea.showing {
   box-shadow: none;
   outline: 0;
 }
+.FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton {
+	background: #303030;
+	border-color: #424242;
+}
+
+.FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton--isEnabled:hover {
+	background: #009688;
+	border-color: #009688;
+}
 
 .FormElementButton.FormElementButton--dynamic:not(.FormElementButton--disabled):hover,
 .textEditor-container.textEditor--dynamic:hover {
@@ -6543,7 +6552,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   box-shadow: 0 0 0 1px #424242;
 }
 
-.ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell,
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
   border-color: #424242;
 }
