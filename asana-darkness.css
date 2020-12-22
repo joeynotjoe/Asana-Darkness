@@ -8165,3 +8165,15 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .FloatingCard.BaseCard:not(:focus):not(.BaseCard--isFocused) {
   box-shadow: none;
 }
+
+.DropTargetAttachment--dragging .DropTargetAttachment-target {
+  background: rgba(21, 21, 21, 0.85);
+}
+
+.DropTargetAttachment-border {
+  border-color: #009688;
+}
+
+.DropTargetAttachment-imageText {
+  color: #009688;
+}
