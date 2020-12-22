@@ -3346,13 +3346,13 @@ textarea.showing {
   outline: 0;
 }
 .FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton {
-	background: #303030;
-	border-color: #424242;
+  background: #303030;
+  border-color: #424242;
 }
 
 .FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton--isEnabled:hover {
-	background: #009688;
-	border-color: #009688;
+  background: #424242;
+  border-color: #666666;
 }
 
 .FormElementButton.FormElementButton--dynamic:not(.FormElementButton--disabled):hover,
@@ -5778,15 +5778,49 @@ div.tooltip-body {
   margin: 0 0;
 }
 
-.TaskAddedToPotInboxThread-title {
+.TaskAddedToPotInboxThread,
+.TaskAddedToPotInboxThread-title,
+.InboxExpandableThread,
+.TaskAddedToPotInboxThread:hover .InboxReferencedTaskItem-milestoneName,
+.TaskAddedToPotInboxThread:hover .InboxReferencedTaskItem-taskName,
+.InboxExpandableThread:hover,
+.InboxExpandableThread:hover .InboxIconAndNameContext-name--withDefaultColors,
+.TaskAddedToPotInboxThread:hover
+  .InboxIconAndNameContext-name--withDefaultColors {
   color: #fefefe;
   fill: #fefefe;
 }
 
+.InboxExpandableThread:hover .StoryActorName-actorName {
+  color: #009688;
+}
+
 .TaskAddedToPotInboxThread-title:hover,
-.TaskAddedToPotInboxThread-title:focus {
+.TaskAddedToPotInboxThread-title:focus,
+.TaskAddedToPotInboxThread:hover,
+.InboxExpandableThread .StoryActorName-actorName {
   color: #009688;
   fill: #009688;
+}
+
+.TaskAddedToPotInboxThread.TaskAddedToPotInboxThread--selected {
+  background: #303030;
+}
+.InboxReferencedTaskItem-inner--selected {
+  background: #424242;
+  border-color: #424242;
+  color: #fefefe;
+}
+.InboxReferencedTaskItem:hover .InboxReferencedTaskItem-inner,
+.InboxReferencedTaskItem--animatingCompletion .InboxReferencedTaskItem-inner {
+  background: #424242;
+  border-color: #424242;
+  color: #fefefe;
+}
+.InboxReferencedTaskItem-inner,
+.InboxReferencedTaskItem-inner.InboxReferencedTaskItem-inner--last {
+  border-color: #424242;
+  color: #fefefe;
 }
 
 .MiniStory-actor:hover,
@@ -6553,7 +6587,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell,
-.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover
+  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
   border-color: #424242;
 }
@@ -7252,6 +7287,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .InboxClarifiedExpandableThread:hover {
   background: #303030;
 }
+.InboxExpandableThread.InboxExpandableThread--selected {
+  background: #42424275;
+  border-color: #42424275;
+}
 
 .InboxClarifiedIconAndText-name {
   color: #fefefe;
@@ -7259,6 +7298,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .InboxFeed-thread:hover {
   border-color: #42424275;
+  background-color: #303030;
 }
 
 .StoryActorName-actorName {
