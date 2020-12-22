@@ -47,6 +47,7 @@ body {
 .QuickAddPopOutContents-nameInput,
 .Label,
 .TaskGroupHeader,
+.DropTargetAttachment-imageText, 
 body,
 html {
   font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
@@ -8167,7 +8168,7 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 }
 
 .DropTargetAttachment--dragging .DropTargetAttachment-target {
-  background: rgba(21, 21, 21, 0.85);
+  background: rgba(30, 30, 30, 0.95);
 }
 
 .DropTargetAttachment-border {
