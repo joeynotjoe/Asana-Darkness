@@ -3623,6 +3623,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   -webkit-border-radius: 1px;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 1px #42424275;
+  box-shadow: inset 0 0 1px #42424275;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -3630,6 +3631,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-radius: 1px;
   background: 0 0;
   -webkit-box-shadow: inset 0 0 1px #00968850;
+  box-shadow: inset 0 0 1px #00968850;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -6085,6 +6087,10 @@ div.tooltip-body {
   border-color: #42424270;
 }
 
+.SpreadsheetItemListEmptyCells-addTaskRow:hover {
+  background-color: #303030;
+}
+
 .DueDateContainer.DueDateContainer--isPopoverVisible
   .DueDateContainer-button.DueDateContainer-button--circular {
   background-color: #009688;
@@ -6581,7 +6587,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   background-color: #009688;
 }
 
-.BoardColumnWithSortableTasks-sortableList::before {
+.BoardColumnWithSortableTasks-sortableList::before,
+.BoardColumnWithSortableTasks-sortableList--isEmpty {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -6600,8 +6607,13 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .ProjectSpreadsheetAddTaskAndAggregationRow:hover
   .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
-  border-color: #424242;
 }
+
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover
+  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+  border-color: #303030;
+}
+
 .ProjectSpreadsheetAggregationRow-stickyCell,
 .ProjectSpreadsheetAddTaskAndAggregationRow:hover
   .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
@@ -8259,4 +8271,31 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .SubtleCountWithIconButton.AbstractThemeableRectangularButton--isEnabled:hover {
   color: #009688;
   fill: #009688;
+}
+
+.ViewSwitcherPreview-image {
+  filter: invert(85%);
+}
+
+.ProjectNameInput-underline {
+  background-color: #303030;
+}
+
+.BaseSelectableCard--isEnabled.BaseSelectableCard--isSelected.BaseCard.BaseCard--isValid,
+.BaseSelectableCard--isEnabled.BaseSelectableCard--isNotSelected:hover.BaseCard.BaseCard--isValid {
+  border-color: #00968850;
+}
+
+.BaseSelectableCard--isEnabled.BaseSelectableCard--isSelected:hover.BaseCard.BaseCard--isValid {
+  border-color: #009688;
+}
+
+.BaseSelectableCard--isEnabled.BaseSelectableCard--isSelected:hover.BaseCard {
+  background: #212121;
+}
+
+.Tab-selectableTab:hover:not(.Tab-selectableTab--isDisabled),
+.Tab-selectableTab.Tab-selectableTab--isActive {
+  box-shadow: inset 0 -2px #424242;
+  color: #009688;
 }
