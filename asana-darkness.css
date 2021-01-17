@@ -47,11 +47,11 @@ body {
 .QuickAddPopOutContents-nameInput,
 .Label,
 .TaskGroupHeader,
-.DropTargetAttachment-imageText, 
+.DropTargetAttachment-imageText,
 body,
 html {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -103,7 +103,7 @@ html {
 }
 
 .FollowersBar .EditableFollowersRow {
-  background-color: #262626;
+  background-color: #212121;
 }
 
 .TopbarPlaceholder-searchBox:focus,
@@ -133,8 +133,8 @@ html {
 
 .TypeaheadCreateItem {
   background: 0 0;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -168,8 +168,8 @@ html {
 }
 
 .TopbarSearchResultSection-header {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1656,8 +1656,8 @@ right_pane {
 }
 
 .LabeledRowStructure-label {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1675,8 +1675,8 @@ right_pane {
 
 .TokenButton-title {
   color: #fefefe75;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2002,13 +2002,13 @@ right_pane {
 }
 
 .CommentComposer {
-  background: #262626;
+  background: #212121;
   border: none;
 }
 
 .CommentComposer.CommentComposer--isFocused {
   border-color: #42424270;
-  background: 262626;
+  background: #212121;
   box-shadow: none;
 }
 
@@ -2116,8 +2116,8 @@ body {
 .itemRowView-potToken,
 .SingleTaskTitleInput-taskName .AutogrowTextarea-input,
 .SingleTaskTitleInput-taskName .AutogrowTextarea-shadow {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2125,8 +2125,8 @@ body {
 }
 
 .bar-row .bar_input_span {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2134,8 +2134,8 @@ body {
 }
 
 .bar-row .task-row-text-input {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2144,8 +2144,8 @@ body {
 
 .full-width-header .header-name,
 .grid_due_date.overdue {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2158,8 +2158,8 @@ body {
 
 .CustomPropertyTextValueInput .autogrowTextarea-input,
 .CustomPropertyTextValueInput .autogrowTextarea-shadow {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2180,8 +2180,8 @@ body {
 .navigationDockItemView-label,
 .team-header,
 .team-name navigationDockTeamView-teamName {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2207,8 +2207,8 @@ body {
 }
 
 .new-project-text {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2217,8 +2217,8 @@ body {
 }
 
 .multiline {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2228,8 +2228,8 @@ body {
 
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input,
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2252,8 +2252,8 @@ body {
 .richText,
 .tagTokenSource-tagLabel--pill,
 .taskTagsView-tokenArea .tokenView {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2264,8 +2264,8 @@ body {
 .autogrowTextarea-shadow,
 .react-mount-node .textInput,
 .simpleTextarea {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2461,8 +2461,8 @@ textarea:hover:not(.override-hover-border):not([disabled]) {
 
 .MiniHeartButton.MiniHeartButton--hearted {
   font-weight: 900;
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2605,8 +2605,8 @@ textarea.showing:focus:not(.override-focus-border) {
   .sectionRow-sectionName.taskName-autogrowTextarea
   .autogrowTextarea-shadow,
 .react-mount-node .textEditor-container {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2646,8 +2646,8 @@ textarea.showing:focus:not(.override-focus-border) {
 }
 
 .hypertext-input code {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2664,8 +2664,8 @@ textarea.showing:focus:not(.override-focus-border) {
 .buttonView.buttonView--primary,
 .dialog--nux-content .title,
 .dialog2 .header .title {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2992,8 +2992,8 @@ textarea.showing {
 }
 
 .NumberedTaskList-number {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3265,8 +3265,8 @@ textarea.showing {
 }
 
 .CustomPropertyProtoRow-name {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3285,8 +3285,8 @@ textarea.showing {
 
 .PotColorPicker-setForEveryone,
 .react-mount-node .CustomPropertyTextValueInput .autogrowTextarea-input {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3312,8 +3312,8 @@ textarea.showing {
 .dismissable-overlay,
 .textEditor-container,
 .TextEditor-container {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3444,8 +3444,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .ProjectMembersDialogContent-label {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3531,7 +3531,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .ToastContainer {
   width: 230px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, "Segoe UI", Roboto,
     "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #303030;
   color: #fefefe;
@@ -3642,8 +3642,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .InboxThreadHeader-title {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4473,12 +4473,21 @@ strong {
   border-color: #777;
   color: #212121;
 }
+.ProjectWithColumnTokenContent-dropdownButton {
+  border-color: #424242;
+}
+.ProjectWithColumnTokenContent-downIcon {
+  fill: #212121;
+}
 
 .Token.Token--colorNone:hover,
 .Token.Token--colorNone:hover:not(:focus) {
   background: #777;
   border-color: #212121;
   color: #212121;
+}
+.Token:hover .ProjectWithColumnTokenContent-downIcon {
+  fill: #fefefe70;
 }
 
 .Token.Token--colorRed {
@@ -4823,8 +4832,8 @@ strong {
 }
 
 .CustomPropertyTextEditablePreviewCell .textInput {
-  font-family: Noto Sans, Lato, SF Mono, Operator Mono, -Apple-system,
-    BlinkMacSystemFont, monospace !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, monospace !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4837,8 +4846,8 @@ strong {
 .SidebarReportsItemRow,
 .SidebarTeamMembershipHeader--withoutClarifiedNavigation
   .SidebarTeamMembershipHeader-teamName {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4903,8 +4912,8 @@ strong {
 
 .TopbarPageHeaderStructure-title {
   color: #fefefe;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4920,8 +4929,8 @@ strong {
 .SingleTaskTitleInput-taskName .autogrowTextarea-input,
 .SingleTaskTitleInput-taskName .autogrowTextarea-shadow,
 .CommentComposerEditor {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4978,8 +4987,7 @@ strong {
 }
 
 .FollowersBar {
-  background: #262626;
-  border-top: 1px solid #42424270;
+  background: #212121;
 }
 
 .FollowersList-placeholderAvatar.DomainUserAvatar:not(.DomainUserAvatar--isDisabled).DomainUserAvatar--noValue {
@@ -5026,8 +5034,8 @@ strong {
 .ConversationBody-fullSize .ConversationBody-title,
 .ConversationTitle,
 .ConversationBody-title {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5075,7 +5083,7 @@ strong {
 }
 
 .ConversationFooter {
-  background: #303030;
+  background: #212121;
   border-top: #424242;
 }
 
@@ -5447,8 +5455,8 @@ div.tooltip-body {
 }
 
 .AdminConsoleTeamsListHeader-cell {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5490,8 +5498,8 @@ div.tooltip-body {
 .CalendarDay-dayHeader {
   color: #fefefe75;
   border-bottom: 1px solid #42424270;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5584,8 +5592,8 @@ div.tooltip-body {
 
 .QuickAddTaskContents-nameInput,
 .AttachmentCard-name {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5991,8 +5999,8 @@ div.tooltip-body {
 .AssigneeWithName-name,
 .AssigneeWithNameDisplay-name,
 .Hovercard-caption {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6163,8 +6171,8 @@ div.tooltip-body {
 }
 
 .TimelineGroupWithNamesSidebar-name {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6344,7 +6352,8 @@ div.tooltip-body {
 .BoardCardNameInput-autogrowTextarea--small .autogrowTextarea-input,
 .BoardCardNameInput-autogrowTextarea--small .autogrowTextarea-shadow,
 .BoardAddCardForm-input {
-  font-family: Noto Sans, Lato;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6654,8 +6663,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .InboxThreadFooter-toggleFollowLink,
 .TaskAddedToPotInboxThreadFooter-archiveAllLink,
 .TaskAddedToPotInboxThreadFooter-toggleFollowLink {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6704,8 +6713,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .error-heading {
   border-bottom-color: #424242;
   color: #ed7b82;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6715,8 +6724,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .error-directions,
 .fatalErrorDialog-errorContact {
   color: #fefefe;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6725,8 +6734,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 #fatal_error_dialog #error_info {
   color: #fefefe75;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6836,8 +6845,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .Typography {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6867,8 +6876,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .PotColumnName-nameButton {
   color: #fefefe;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6937,8 +6946,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .MultiSelectToolbarCustomPropertyDetailsRow-label {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6956,8 +6965,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .PageToolbarInfoDisplay,
 .TaskRowCompletionStatus-checkbox,
 .SpreadsheetHeaderLeftStructure {
-  font-family: Noto Sans, Lato, IBM Plex Sans, -Apple-system, BlinkMacSystemFont,
-    Source Sans Pro !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7015,8 +7024,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   background-color: #424242;
   border-color: #424242;
   color: #fefefe !important;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7056,8 +7065,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .MultilineRowMetadataStructure-metadata,
 .SidebarCollapsibleHeader {
   color: #fefefe70;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7136,8 +7145,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .SummaryCountCard-label,
 .StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-input,
 .StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-shadow {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7360,8 +7369,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .AddedToMembershipDetailStructure-toolbarTitle {
   color: #009688;
   fill: #009688;
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7789,13 +7798,13 @@ textarea {
 }
 
 .SidebarTeamMembershipHeader-teamName {
-  font-family: Noto Sans, Lato, Source Sans Pro, IBM Plex Sans, -Apple-system,
-    BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
+    Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  color: #fefefe70;
+  color: #fefefe;
 }
 
 .FullWidthPageStructureWithDetailsOverlay {
@@ -8175,6 +8184,79 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   border-color: #009688;
 }
 
-.DropTargetAttachment-imageText {
+.DropTargetAttachment-imageText,
+.HiddenNavigationLink.HiddenNavigationLink--darkGray1:hover {
   color: #009688;
+}
+
+.FlowPickerTile-box {
+  background: #303030;
+  border-color: #424242;
+}
+
+.DatePickerCalendarDateV2--oneDaySelection.DatePickerCalendarDateV2--showSelectionBackground
+  .DatePickerCalendarDateV2-selectionBackground,
+.SidebarReportsItemRow.is-selected:hover,
+.SidebarReportsItemRow.is-selected:focus,
+.SidebarReportsItemRow:hover,
+.SidebarReportsItemRow:focus,
+.DragContainer--isDragging .SidebarReportsItemRow {
+  background: #009688;
+}
+
+.DatePickerCalendarDateV2--default.DatePickerCalendarDateV2--today
+  .DatePickerCalendarDateV2-selectionBackground {
+  border-color: #009688;
+  background: #009688;
+  box-shadow: inset 0 0 0 1px #009688;
+}
+
+.DatePickerCalendarDateV2--today {
+  color: #fefefe;
+}
+
+.SpreadsheetConversationNameCell-dragHandlePlaceholder {
+  border-color: #303030;
+}
+
+.SpreadsheetConversationRow--withoutShadedBackground:hover,
+.SpreadsheetConversationRow--contextMenuOpened,
+.SpreadsheetConversationRow--withoutShadedBackground:hover .SpreadsheetCell,
+.SpreadsheetConversationRow--contextMenuOpened .SpreadsheetCell,
+.SpreadsheetConversationRow--withoutShadedBackground:hover
+  .SpreadsheetPlaceholderCell,
+.SpreadsheetConversationRow--contextMenuOpened .SpreadsheetPlaceholderCell {
+  background-color: #303030;
+}
+
+.SidebarTeamMembershipHeader,
+.SidebarTeamMembershipHeader:link,
+.SidebarTeamMembershipHeader:visited {
+  color: #fefefe;
+}
+
+.SidebarTeamMembershipHeader:hover,
+.SidebarTeamMembershipHeader:focus,
+.DragContainer--isDragging .SidebarTeamMembershipHeader {
+  background-color: #009688;
+}
+
+.StatusUpdatePane-header {
+  border-color: #212121;
+}
+
+.HiddenNavigationLink.HiddenNavigationLink--darkGray3:hover {
+  color: #009688;
+  fill: #009688;
+}
+
+.ConversationStoryFeed-separator,
+.ConversationStoryFeed-blockStory.ConversationStoryFeed-blockStory--withThreadline.ConversationStoryFeed-blockStory:not(:last-of-type)::before,
+.ConversationStoryFeed-blockStory.ConversationStoryFeed-blockStory--withThreadline.ConversationStoryFeed-blockStory:last-of-type::before {
+  border-color: #424242;
+}
+
+.SubtleCountWithIconButton.AbstractThemeableRectangularButton--isEnabled:hover {
+  color: #009688;
+  fill: #009688;
 }
