@@ -8299,3 +8299,13 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   box-shadow: inset 0 -2px #424242;
   color: #009688;
 }
+
+.ProsemirrorEditor-link {
+  color: #009688;
+  fill: #009688;
+}
+
+.ProsemirrorEditor-link:hover {
+  color: #00968890;
+  fill: #00968890;
+}
