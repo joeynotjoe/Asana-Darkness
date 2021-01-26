@@ -783,6 +783,42 @@ div.taskPrivacyHeaderView.privacy-info {
   color: #e2e2e2;
 }
 
+.DueDateTokenButton--complete .DueDateTokenButton-icon {
+  fill: #fefefe75;
+}
+
+.DueDateTokenButton--dueDateSet .DueDateTokenButton-icon {
+  border-color: #fefefe75;
+}
+
+.DueDateTokenButton--future .DueDateTokenButton-label .DueDate,
+.DueDateTokenButton--future .DueDateTokenButton-label .DueDate--past,
+.DueDateTokenButton--future .DueDateTokenButton-label .DueDate--soon,
+.DueDateTokenButton--future .DueDateTokenButton-label .DueDate--future,
+.DueDateTokenButton--future .DueDateTokenButton-label .DueDate--complete,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
+  .DueDateTokenButton-label
+  .DueDate,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
+  .DueDateTokenButton-label
+  .DueDate--past,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
+  .DueDateTokenButton-label
+  .DueDate--soon,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
+  .DueDateTokenButton-label
+  .DueDate--future,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
+  .DueDateTokenButton-label
+  .DueDate--complete,
+.DueDateTokenButton--complete .DueDateTokenButton-label .DueDate,
+.DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--past,
+.DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--soon,
+.DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--future,
+.DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--complete {
+  color: #fefefe75;
+}
+
 .react-mount-node .menuItem-selectedIcon {
   color: #80cbc4;
 }
@@ -8308,4 +8344,8 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .ProsemirrorEditor-link:hover {
   color: #00968890;
   fill: #00968890;
+}
+
+.AccessDeniedWithCallToActionAsanaView-container {
+  background-color: #212121;
 }
