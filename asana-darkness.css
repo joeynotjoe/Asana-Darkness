@@ -816,7 +816,41 @@ div.taskPrivacyHeaderView.privacy-info {
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--soon,
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--future,
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--complete {
-  color: #fefefe75;
+  color: #fefefe;
+}
+
+.DueDateTokenButton--dueDateSet .DueDateTokenButton-icon {
+    border-color: #fefefe;
+    fill: #fefefe
+}
+
+.DueDateTokenButton--past .DueDateTokenButton-icon {
+    border-color: #ed4758;
+    fill: #ed4758
+}
+
+.DueDateTokenButton--soon .DueDateTokenButton-icon {
+    border-color: #009688;
+    fill: #009688;
+}
+
+.SubtleButtonCard.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
+    background: #303030;
+}
+
+.AssigneeTokenButton--empty:hover .AssigneeTokenButton-avatar {
+    border-color: #fefefe75;
+    fill: #fefefe75;
+}
+
+.AssigneeTokenButton--empty .AssigneeTokenButton-avatar {
+    border: 1px dashed #424242;
+    fill: #424242;
+}
+
+.SubtleTokenButton.SubtleTokenButton--empty {
+    color: #fefefe75;
+    fill: #fefefe75
 }
 
 .react-mount-node .menuItem-selectedIcon {
@@ -2980,8 +3014,8 @@ textarea.showing {
 }
 
 .RemoveButton {
-  background: #009688;
-  fill: #e2e2e2;
+  background: transparent;
+  fill: #fefefe75;
 }
 
 .RemoveButton:hover {
@@ -3981,6 +4015,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   background: #303030;
   border-color: #424242;
   color: #fefefe;
+    fill: #fefefe;
 }
 
 .dashboard-card {
