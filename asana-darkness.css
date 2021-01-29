@@ -820,37 +820,37 @@ div.taskPrivacyHeaderView.privacy-info {
 }
 
 .DueDateTokenButton--dueDateSet .DueDateTokenButton-icon {
-    border-color: #fefefe;
-    fill: #fefefe
+  border-color: #fefefe;
+  fill: #fefefe;
 }
 
 .DueDateTokenButton--past .DueDateTokenButton-icon {
-    border-color: #ed4758;
-    fill: #ed4758
+  border-color: #ed4758;
+  fill: #ed4758;
 }
 
 .DueDateTokenButton--soon .DueDateTokenButton-icon {
-    border-color: #009688;
-    fill: #009688;
+  border-color: #009688;
+  fill: #009688;
 }
 
 .SubtleButtonCard.BaseSelectableCard--isNotSelected.BaseSelectableCard--isEnabled:hover.BaseCard {
-    background: #303030;
+  background: #303030;
 }
 
 .AssigneeTokenButton--empty:hover .AssigneeTokenButton-avatar {
-    border-color: #fefefe75;
-    fill: #fefefe75;
+  border-color: #fefefe75;
+  fill: #fefefe75;
 }
 
 .AssigneeTokenButton--empty .AssigneeTokenButton-avatar {
-    border: 1px dashed #424242;
-    fill: #424242;
+  border: 1px dashed #424242;
+  fill: #424242;
 }
 
 .SubtleTokenButton.SubtleTokenButton--empty {
-    color: #fefefe75;
-    fill: #fefefe75
+  color: #fefefe75;
+  fill: #fefefe75;
 }
 
 .react-mount-node .menuItem-selectedIcon {
@@ -4015,7 +4015,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   background: #303030;
   border-color: #424242;
   color: #fefefe;
-    fill: #fefefe;
+  fill: #fefefe;
 }
 
 .dashboard-card {
@@ -8383,4 +8383,16 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 
 .AccessDeniedWithCallToActionAsanaView-container {
   background-color: #212121;
+}
+
+.DeprecatedDialog-headerTitle {
+  color: #fefefe;
+}
+
+.DeprecatedDialog {
+  color: #fefefe;
+}
+
+.DeprecatedDialog-header {
+  border-color: #424242;
 }
