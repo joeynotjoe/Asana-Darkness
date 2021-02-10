@@ -1,12 +1,6 @@
 #asana_main > div.asanaView-bodyContainer > div.asanaView-body,
-#asana_main
-  > div.asanaView-bodyContainer
-  > div.asanaView-body
-  > div:nth-child(1),
-#asana_main
-  > div.asanaView-bodyContainer
-  > div.asanaView-body
-  > div:nth-child(4),
+#asana_main > div.asanaView-bodyContainer > div.asanaView-body > div:nth-child(1),
+#asana_main > div.asanaView-bodyContainer > div.asanaView-body > div:nth-child(4),
 #asana_main > div.remix-topbar,
 #asana_main > div.remix-topbar > div,
 #asana_main > div.remix-topbar > div.react-mount-node > div > div,
@@ -51,7 +45,7 @@ body {
 body,
 html {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,26 +61,10 @@ html {
   fill: #009688;
 }
 
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium
-  > div.full-width-header-center
-  > div
-  > ul
-  > li:nth-child(1)
-  > a,
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium
-  > div.full-width-header-left-side-elements
-  > div.center-pane-header-row-view.textarea-title-view,
-#asana_main
-  > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium
-  > div.full-width-header-center
-  > div.tab-nav-div
-  > ul
-  > li
-  > a,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium > div.full-width-header-center > div > ul > li:nth-child(1) > a,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium > div.full-width-header-left-side-elements > div.center-pane-header-row-view.textarea-title-view,
+#asana_main > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium > div.full-width-header-center > div.tab-nav-div > ul > li > a,
 #details_pane_title_row > div.details-pane-title > span > div,
 #details_property_sheet_title,
 #grid > tbody,
@@ -103,7 +81,7 @@ html {
 }
 
 .FollowersBar .EditableFollowersRow {
-  background-color: #212121;
+  background-color: #262626;
 }
 
 .TopbarPlaceholder-searchBox:focus,
@@ -134,7 +112,7 @@ html {
 .TypeaheadCreateItem {
   background: 0 0;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -169,7 +147,7 @@ html {
 
 .TopbarSearchResultSection-header {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -188,15 +166,9 @@ html {
   top: 0;
 }
 
-#asana_main
-  > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium,
-#asana_main
-  > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium
-  > div.full-width-header-center,
-#asana_main
-  > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium
-  > div.full-width-header-center
-  > div.center-pane-header-row-view.textarea-title-view {
+#asana_main > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium,
+#asana_main > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium > div.full-width-header-center,
+#asana_main > div.full-width-header.full-width-header--expanded.full-width-header-sideElements--medium > div.full-width-header-center > div.center-pane-header-row-view.textarea-title-view {
   background: #212121;
   color: #e2e2e2;
 }
@@ -204,8 +176,7 @@ html {
 .full-width-header .center-pane-header-row-view,
 .full-width-header.full-width-header--compact,
 .full-width-header.full-width-header--compact .center-pane-header-row-view,
-.full-width-header.full-width-header--compact
-  .full-width-header-left-side-elements,
+.full-width-header.full-width-header--compact .full-width-header-left-side-elements,
 .full-width-header.full-width-header--expanded,
 .full-width-header.full-width-header--expanded .center-pane-title,
 .nothing-selected,
@@ -229,32 +200,12 @@ html {
   background: #212121;
 }
 
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .grid-row-selected:not(.focused)
-  > td
-  .grid-custom-fields,
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .grid-row-selected:not(.focused)
-  > td
-  .grid-tags-and-date,
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .grid_pseudorow_no_prioritized:not(.recently-changed)
-  .grid-custom-fields,
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .grid_pseudorow_no_prioritized:not(.recently-changed)
-  .grid-tags-and-date,
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .task-row:not(.recently-changed)
-  .grid-custom-fields,
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .task-row:not(.recently-changed)
-  .grid-tags-and-date,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid-row-selected:not(.focused) > td .grid-custom-fields,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid-row-selected:not(.focused) > td .grid-tags-and-date,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid_pseudorow_no_prioritized:not(.recently-changed) .grid-custom-fields,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid_pseudorow_no_prioritized:not(.recently-changed) .grid-tags-and-date,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .task-row:not(.recently-changed) .grid-custom-fields,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .task-row:not(.recently-changed) .grid-tags-and-date,
 .PageHeaderStructureLoading--compact,
 .TaskGroupHeader--showZipper .TaskGroupHeader-content {
   background: 0;
@@ -273,29 +224,18 @@ html {
 }
 
 #center_pane__contents,
-#details_pane_header
-  > div.toolbar.details-pane-top.details-pane-toolbar.toolbar-no-grad,
+#details_pane_header > div.toolbar.details-pane-top.details-pane-toolbar.toolbar-no-grad,
 #right_pane__contents > div > div > div.sticky-view-placeholder,
 #right_pane__contents > div > div > div:nth-child(3),
 #right_pane__contents > div > div > div:nth-child(6),
-#right_pane__contents
-  > div
-  > div
-  > div:nth-child(6)
-  > div.property.description.taskDetailsView-description {
+#right_pane__contents > div > div > div:nth-child(6) > div.property.description.taskDetailsView-description {
   background: #212121;
 }
 
-#Flags.enable_no_flexbox_in_grid
-  .grid-uncompact
-  .grid-row-selected:not(.focused)
-  > td,
+#Flags.enable_no_flexbox_in_grid .grid-uncompact .grid-row-selected:not(.focused) > td,
 #details_pane_footer > div,
 #details_pane_footer > div > div.loading-boundary.hidden > div,
-#details_pane_footer
-  > div
-  > div:nth-child(2)
-  > div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel,
+#details_pane_footer > div > div:nth-child(2) > div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel,
 .TaskFollowers,
 .react-mount-node .Button.Button--secondary,
 .react-mount-node .Button.Button--secondary:not(.Button--disabled) {
@@ -355,17 +295,12 @@ html {
   color: #fefefe70;
 }
 
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium
-  > div.full-width-header-left-side-elements
-  > div.center-pane-header-row-view.textarea-title-view,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium > div.full-width-header-left-side-elements > div.center-pane-header-row-view.textarea-title-view,
 #right_pane__contents,
 .full-width-header.full-width-header--compact,
 .full-width-header.full-width-header--compact .center-pane-header-row-view,
-.full-width-header.full-width-header--compact
-  .full-width-header-left-side-elements,
+.full-width-header.full-width-header--compact .full-width-header-left-side-elements,
 .nothing-selected {
   background: #212121;
 }
@@ -427,8 +362,7 @@ html {
   background: #009688;
 }
 
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--medium,
 .Topbar,
 .react-mount-node .topbar {
   border-bottom: 1px solid #42424270;
@@ -451,9 +385,7 @@ html {
   border-color: #42424270;
 }
 
-.itemListInboxThreadView-notification
-  .selected.story
-  .referenced-task-row-view {
+.itemListInboxThreadView-notification .selected.story .referenced-task-row-view {
   background: #424242;
 }
 
@@ -532,35 +464,15 @@ html {
   color: #e2e2e2;
 }
 
-#center_pane__contents
-  > div
-  > div
-  > div.team-feed
-  > div
-  > div.conversations
-  > div
-  > div
-  > div.form.message-composer-form.conversation-reply-message.message-composer-small
-  > div.form-row.input-row
-  > div.body
-  > div {
+#center_pane__contents > div > div > div.team-feed > div > div.conversations > div > div > div.form.message-composer-form.conversation-reply-message.message-composer-small > div.form-row.input-row > div.body > div {
   background: #212121;
   color: #e2e2e2;
 }
 
 .message-composer-form .composer-input-wrap .composer-placeholder,
-.message-composer-form:not(.expanded).always-show-post-button
-  .composer-placeholder,
-.team-feed
-  .conversation-message.expanded.message-composer-form
-  .composer-input-wrap.expanded
-  .autogrow-textarea
-  .hypertext-input,
-.team-feed-conversation
-  .conversation-reply-message.message-composer-form
-  .composer-input-wrap.expanded
-  .autogrow-textarea
-  .hypertext-input {
+.message-composer-form:not(.expanded).always-show-post-button .composer-placeholder,
+.team-feed .conversation-message.expanded.message-composer-form .composer-input-wrap.expanded .autogrow-textarea .hypertext-input,
+.team-feed-conversation .conversation-reply-message.message-composer-form .composer-input-wrap.expanded .autogrow-textarea .hypertext-input {
   color: #e2e2e2;
 }
 
@@ -569,13 +481,8 @@ html {
   background: #424242;
 }
 
-.message-composer-form:not(.expanded).always-show-post-button
-  .composer-placeholder,
-.team-feed
-  .conversation-message.expanded.message-composer-form
-  .composer-input-wrap.expanded
-  .autogrow-textarea
-  .hypertext-input {
+.message-composer-form:not(.expanded).always-show-post-button .composer-placeholder,
+.team-feed .conversation-message.expanded.message-composer-form .composer-input-wrap.expanded .autogrow-textarea .hypertext-input {
   background: #212121;
 }
 
@@ -614,8 +521,7 @@ html {
   text-decoration: none;
 }
 
-.TaskProjectSectionInfo-noSectionDropdown.is-dropdownVisible
-  > .TaskProjectSectionInfo-dropdownArrow {
+.TaskProjectSectionInfo-noSectionDropdown.is-dropdownVisible > .TaskProjectSectionInfo-dropdownArrow {
   fill: #009688;
 }
 
@@ -656,8 +562,7 @@ html {
   color: #e2e2e2;
 }
 
-#asana_main
-  > div.full-width-header.full-width-header--compact.full-width-header-sideElements--large {
+#asana_main > div.full-width-header.full-width-header--compact.full-width-header-sideElements--large {
   border-bottom: 1px solid #42424270;
 }
 
@@ -674,8 +579,7 @@ html {
 .grid-uncompact #grid .grid-row-selected:not(.focused) > td .grid-custom-fields,
 .grid-uncompact #grid .grid-row-selected:not(.focused) > td .grid-tags-and-date,
 .itemRow.itemRow--highlighted.PotTaskRow.PotTaskRow--highlighted,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button {
+.taskCheckboxNodeView.circularToggleButtonView--toggledOn .circularToggleButtonView-button {
   background: #424242;
 }
 
@@ -721,19 +625,9 @@ div.taskPrivacyHeaderView.privacy-info {
   background: #424242;
 }
 
-.grid-uncompact
-  #grid
-  .grid-row-selected
-  + .task-row:not(:hover):not(.focused)
-  .grid_cell_boolean,
-.grid-uncompact
-  #grid
-  .grid_pseudorow_no_prioritized:not(.recently-changed)
-  .grid-custom-fields,
-.grid-uncompact
-  #grid
-  .grid_pseudorow_no_prioritized:not(.recently-changed)
-  .grid-tags-and-date,
+.grid-uncompact #grid .grid-row-selected + .task-row:not(:hover):not(.focused) .grid_cell_boolean,
+.grid-uncompact #grid .grid_pseudorow_no_prioritized:not(.recently-changed) .grid-custom-fields,
+.grid-uncompact #grid .grid_pseudorow_no_prioritized:not(.recently-changed) .grid-tags-and-date,
 .grid-uncompact #grid .task-row:not(.recently-changed) .grid-custom-fields,
 .grid-uncompact #grid .task-row:not(.recently-changed) .grid-tags-and-date,
 .grid_cell_schedule .schedule-status-dropdown {
@@ -754,10 +648,8 @@ div.taskPrivacyHeaderView.privacy-info {
   color: #80cbc4;
 }
 
-.priority.task-row.new_tasks_group.grid-row-selected
-  .grid-cell.grid_cell_boolean.taskRowView-completionCell,
-.priority.task-row.new_tasks_group.grid-row-selected
-  .grid_cell_boolean.taskRowView-completionCell,
+.priority.task-row.new_tasks_group.grid-row-selected .grid-cell.grid_cell_boolean.taskRowView-completionCell,
+.priority.task-row.new_tasks_group.grid-row-selected .grid_cell_boolean.taskRowView-completionCell,
 .priority.task-row.new_tasks_group.grid-row-selected.in-assigned-to-me-new-task.taskRow--willCollapse {
   background: #424242;
 }
@@ -796,21 +688,11 @@ div.taskPrivacyHeaderView.privacy-info {
 .DueDateTokenButton--future .DueDateTokenButton-label .DueDate--soon,
 .DueDateTokenButton--future .DueDateTokenButton-label .DueDate--future,
 .DueDateTokenButton--future .DueDateTokenButton-label .DueDate--complete,
-.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
-  .DueDateTokenButton-label
-  .DueDate,
-.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
-  .DueDateTokenButton-label
-  .DueDate--past,
-.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
-  .DueDateTokenButton-label
-  .DueDate--soon,
-.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
-  .DueDateTokenButton-label
-  .DueDate--future,
-.DueDateTokenButton--empty.DueDateTokenButton--editable:hover
-  .DueDateTokenButton-label
-  .DueDate--complete,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover .DueDateTokenButton-label .DueDate,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover .DueDateTokenButton-label .DueDate--past,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover .DueDateTokenButton-label .DueDate--soon,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover .DueDateTokenButton-label .DueDate--future,
+.DueDateTokenButton--empty.DueDateTokenButton--editable:hover .DueDateTokenButton-label .DueDate--complete,
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate,
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--past,
 .DueDateTokenButton--complete .DueDateTokenButton-label .DueDate--soon,
@@ -891,10 +773,7 @@ a.NavigationLink.topbar-notificationsButton {
   background-color: #303030;
 }
 
-.cal-row.cal-row-week
-  .cal-col-today:not(.cal-col-project-due)
-  .date
-  .calendar-today-star-icon {
+.cal-row.cal-row-week .cal-col-today:not(.cal-col-project-due) .date .calendar-today-star-icon {
   fill: #009688;
 }
 
@@ -1005,35 +884,23 @@ a.NavigationLink.topbar-notificationsButton.is-selected {
   background: #424242;
 }
 
-.circularToggleButtonView.circularToggleButtonView--toggledOn.circularToggleButtonView--recentlyToggled.taskCheckboxNodeView
-  > div,
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button,
-.grid-compact
-  #grid
-  .task-row
-  div.circularToggleButtonView.circularToggleButtonView--toggledOn.taskCheckboxNodeView
-  > div,
-.grid-row-selected:not(.focused)
-  .taskCheckboxNodeView.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button {
+.circularToggleButtonView.circularToggleButtonView--toggledOn.circularToggleButtonView--recentlyToggled.taskCheckboxNodeView > div,
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn .circularToggleButtonView-button,
+.grid-compact #grid .task-row div.circularToggleButtonView.circularToggleButtonView--toggledOn.taskCheckboxNodeView > div,
+.grid-row-selected:not(.focused) .taskCheckboxNodeView.circularToggleButtonView--toggledOn .circularToggleButtonView-button,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOn .circularToggleButtonView-button {
   background: #009688;
 }
 
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button:hover,
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn .circularToggleButtonView-button:hover,
 .react-mount-node .BoardAddCardButton.Button--primary,
 .taskCompletedStoryView-avatar,
 .taskInboxThreadView-icon.is-completed {
   background: #80cbc4;
 }
 
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOn
-  .circularToggleButtonView-button,
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOn .circularToggleButtonView-button,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOn .circularToggleButtonView-button,
 .taskCompletedStoryView-avatar,
 .taskInboxThreadView-icon.is-completed {
   border-color: #009688;
@@ -1074,8 +941,7 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
   background: 0;
 }
 
-#Flags:not(.enable_inbox_typography_update)
-  .itemInboxThreadView-token.potColor-text--NONE,
+#Flags:not(.enable_inbox_typography_update) .itemInboxThreadView-token.potColor-text--NONE,
 .inboxToolbar .inbox-archive-all-button,
 .members-dropdown-member-list a,
 .members-dropdown-member-list div,
@@ -1187,23 +1053,12 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--complete,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:hover,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:not(.TaskRowCompletionStatus-checkbox--disabled):hover,
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-.itemListInboxThreadView-notification
-  .selected.story
-  .referenced-task-row-view
-  .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button,
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton.CircularToggleButton--toggledOff
-  .CircularButton--enabled:hover,
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-.taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+.itemListInboxThreadView-notification .selected.story .referenced-task-row-view .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button,
+.react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOff .CircularButton--enabled:hover,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+.taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   color: #e2e2e2;
   fill: #e2e2e2;
   background: #009688;
@@ -1225,8 +1080,7 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
   background: 0;
 }
 
-.members-dropdown-notification-checkbox-option
-  .projectMembersDropdown-notificationCheckbox-text,
+.members-dropdown-notification-checkbox-option .projectMembersDropdown-notificationCheckbox-text,
 .person-card-view .person-info .name,
 .react-mount-node .DueDate--future,
 .react-mount-node .MiniStory-actor,
@@ -1267,7 +1121,6 @@ div.property.followers_du.details-followers.detailsFollowers-withFacepileLabel {
 }
 
 .SectionRow-sectionName {
-  font-size: 16px;
   font-weight: 700;
   line-height: 21px;
   box-shadow: none;
@@ -1305,10 +1158,7 @@ tr .search_ordered .task-row .no-group .gridrow-selected .focused .completed {
 
 .grid-uncompact #grid .bar-row:hover .grid_cell_show_details,
 .grid-uncompact #grid .bar-row:hover > td,
-.grid-uncompact
-  #grid
-  .grid_pseudorow_no_prioritized:hover
-  .grid_cell_show_details,
+.grid-uncompact #grid .grid_pseudorow_no_prioritized:hover .grid_cell_show_details,
 .grid-uncompact #grid .grid_pseudorow_no_prioritized:hover > td,
 .grid-uncompact #grid .task-row:hover .grid_cell_show_details,
 .grid-uncompact #grid .task-row:hover > td {
@@ -1334,8 +1184,7 @@ tr .search_ordered .task-row .no-group .gridrow-selected .focused .completed {
 .DatePickerCalendar-day.is-today,
 .inboxThreadView-archiveButton:hover,
 .message-composer-big .composer-input-wrap .conversation-composer,
-.message-composer-form:not(.expanded).always-show-post-button
-  .composer-placeholder {
+.message-composer-form:not(.expanded).always-show-post-button .composer-placeholder {
   background: #009688;
 }
 
@@ -1355,9 +1204,7 @@ right_pane {
 
 .calendar-center-pane-container .floatingSelectView-label,
 .project-overview-center-pane-container .person-card-view .person-info .name,
-.project-overview-center-pane-container
-  .project-due-date.unset
-  .placeholder-text,
+.project-overview-center-pane-container .project-due-date.unset .placeholder-text,
 .react-mount-node .DeprecatedButtonSelect-label {
   color: #a2b4bc;
 }
@@ -1386,37 +1233,23 @@ right_pane {
   color: #a2b4bc;
 }
 
-.grid-compact
-  #grid
-  .recently-changed.grid_pseudorow_no_prioritized
-  .gridCell-compactRowContainer,
-.grid-compact
-  #grid
-  .recently-changed.grid_pseudorow_no_prioritized
-  .gridCell-singleRowContainer,
-.grid-compact
-  #grid
-  .recently-changed.referencedTaskRowView.grid_pseudorow_no_prioritized,
+.grid-compact #grid .recently-changed.grid_pseudorow_no_prioritized .gridCell-compactRowContainer,
+.grid-compact #grid .recently-changed.grid_pseudorow_no_prioritized .gridCell-singleRowContainer,
+.grid-compact #grid .recently-changed.referencedTaskRowView.grid_pseudorow_no_prioritized,
 .grid-compact #grid .task-row.recently-changed .gridCell-compactRowContainer,
 .grid-compact #grid .task-row.recently-changed .gridCell-singleRowContainer,
 .grid-compact #grid .task-row.recently-changed.referencedTaskRowView,
-.grid-compact
-  #grid
-  .task-row.taskRowView--recentlyCompleted.completed.taskRow--willCollapse,
-.grid-compact
-  #grid
-  .taskRowView--recentlyCompleted.completed.taskRow--willCollapse.grid_pseudorow_no_prioritized,
+.grid-compact #grid .task-row.taskRowView--recentlyCompleted.completed.taskRow--willCollapse,
+.grid-compact #grid .taskRowView--recentlyCompleted.completed.taskRow--willCollapse.grid_pseudorow_no_prioritized,
 .referenced-task-row-view.recently-changed .gridCell-compactRowContainer,
 .referenced-task-row-view.recently-changed .gridCell-singleRowContainer,
 .referenced-task-row-view.recently-changed.referencedTaskRowView,
 .referenced-task-row-view.taskRowView--recentlyCompleted.completed.taskRow--willCollapse {
-  background-image: linear-gradient(
-    to right,
-    #009688,
-    #009688 33%,
-    #009688 83%,
-    #e2e2e2
-  );
+  background-image: linear-gradient( to right,
+  #009688,
+  #009688 33%,
+  #009688 83%,
+  #e2e2e2);
 }
 
 @-webkit-keyframes background-to-green-completion {
@@ -1486,8 +1319,7 @@ right_pane {
   color: #e2e2e2;
 }
 
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--complete,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--complete,
 .taskRowCompletionStatus-checkIcon .react-mount-node svg:not(:root) polygon {
   color: #e2e2e2;
   fill: #e2e2e2;
@@ -1537,19 +1369,16 @@ right_pane {
   fill: #777;
 }
 
-.SpreadsheetGridTaskNameCell:hover
-  .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
+.SpreadsheetGridTaskNameCell:hover .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
   background: #303030;
   border-color: #42424270;
 }
 
-.SpreadsheetGridTaskNameCell:hover
-  .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused):hover {
+.SpreadsheetGridTaskNameCell:hover .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused):hover {
   border-color: #424242;
 }
 
-.SpreadsheetCell--withShadedBackground
-  .SpreadsheetAssigneeInputCell-removeButton {
+.SpreadsheetCell--withShadedBackground .SpreadsheetAssigneeInputCell-removeButton {
   background-color: #009688;
   fill: #fefefe;
   color: #fefefe;
@@ -1582,8 +1411,7 @@ right_pane {
   background: #303030;
 }
 
-.CustomPropertyProtoMultiRowTypeaheadItem--highlighted
-  .CustomPropertyProtoMultiRowTypeaheadItem-content {
+.CustomPropertyProtoMultiRowTypeaheadItem--highlighted .CustomPropertyProtoMultiRowTypeaheadItem-content {
   background: #303030;
 }
 
@@ -1649,24 +1477,16 @@ right_pane {
   padding-left: 3px;
 }
 
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton
-  .CircularToggleButton-pulse,
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton.CircularToggleButton--toggledOn
-  .CircularButton,
+.react-mount-node .CompletionCheckbox .CircularToggleButton .CircularToggleButton-pulse,
+.react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOn .CircularButton,
 .react-mount-node .TaskCompletedBlockStory-icon,
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--complete.taskRowCompletionStatus--taskRowSelected,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--complete.taskRowCompletionStatus--taskRowSelected,
 .taskIconWidget--complete {
   border-color: #009688;
   background: #009688;
 }
 
-.circularToggleButtonView.circularToggleButtonView--toggledOn.circularToggleButtonView--recentlyToggled.taskCheckboxNodeView
-  > div,
+.circularToggleButtonView.circularToggleButtonView--toggledOn.circularToggleButtonView--recentlyToggled.taskCheckboxNodeView > div,
 .taskCompletedStoryView-avatar,
 .taskInboxThreadView-icon.is-completed {
   background: #009688;
@@ -1727,13 +1547,12 @@ right_pane {
 
 .LabeledRowStructure-label {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
   color: #fefefe70;
-  font-size: 0.85em;
 }
 
 .TokenButton {
@@ -1746,7 +1565,7 @@ right_pane {
 .TokenButton-title {
   color: #fefefe75;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1855,9 +1674,7 @@ right_pane {
   box-shadow: 0 0 0 1px #424242;
 }
 
-.referenced-task-row-view:hover
-  .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.referenced-task-row-view:hover .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   border-color: #009688;
   background: #009688;
   -webkit-box-shadow: 0 0 0 3px #009688;
@@ -1868,48 +1685,28 @@ right_pane {
 
 .ButtonSelect-label,
 .GridFilterSection-label,
-.react-mount-node
-  .CustomPropertyGenericPreviewCell
-  .CustomPropertyGenericPreviewCell-value,
-.react-mount-node
-  .CustomPropertyNumberPreviewCell
-  .CustomPropertyNumberPreviewCell-value {
+.react-mount-node .CustomPropertyGenericPreviewCell .CustomPropertyGenericPreviewCell-value,
+.react-mount-node .CustomPropertyNumberPreviewCell .CustomPropertyNumberPreviewCell-value {
   color: #e2e2e2;
 }
 
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  div,
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  li,
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  path,
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  span,
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  svg,
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton div,
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton li,
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton path,
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton span,
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton svg,
 .react-mount-node .DeprecatedButtonSelect-downIcon {
   color: #e2e2e2;
   fill: #e2e2e2;
 }
 
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton {
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton {
   background: #009688;
 }
 
-.react-mount-node
-  .BoardAddCardButton.Button--primary:active:not(.Button--disabled),
-.react-mount-node
-  .BoardAddCardButton.Button--primary:hover:not(.Button--disabled),
-.react-mount-node
-  .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton
-  .dropdownMenu-item
-  .CustomPropertyProtoTypeaheadHeader {
+.react-mount-node .BoardAddCardButton.Button--primary:active:not(.Button--disabled),
+.react-mount-node .BoardAddCardButton.Button--primary:hover:not(.Button--disabled),
+.react-mount-node .CustomPropertyProtoTypeahead-dropdown.CustomPropertyProtoTypeahead-dropdown--withCreateButton .dropdownMenu-item .CustomPropertyProtoTypeaheadHeader {
   background: #424242;
 }
 
@@ -1942,15 +1739,12 @@ right_pane {
   background: #191919;
 }
 
-.DatePickerCalendarDate--oneDaySelection
-  .DatePickerCalendarDate-selectionGrayBackground {
+.DatePickerCalendarDate--oneDaySelection .DatePickerCalendarDate-selectionGrayBackground {
   background: #424242;
 }
 
-.DatePickerCalendarDate--oneDaySelection
-  .DatePickerCalendarDate-selectionGrayBackground,
-.DatePickerCalendarDate--oneDaySelection
-  .DatePickerCalendarDate-selectionBackground {
+.DatePickerCalendarDate--oneDaySelection .DatePickerCalendarDate-selectionGrayBackground,
+.DatePickerCalendarDate--oneDaySelection .DatePickerCalendarDate-selectionBackground {
   border: 2px solid #424242;
 }
 
@@ -1961,9 +1755,7 @@ right_pane {
 }
 
 .SingleTaskPane-projects .textInput.textInput--medium,
-.TaskProjects-projects
-  .TaskProjectsMultihome-projects
-  .textInput.textInput--medium,
+.TaskProjects-projects .TaskProjectsMultihome-projects .textInput.textInput--medium,
 .TaskProjectsMultihome-typeaheadContainer .textInput.textInput--medium {
   color: #80cbc4;
 }
@@ -2072,7 +1864,7 @@ right_pane {
 }
 
 .CommentComposer {
-  background: #212121;
+  background: #262626;
   border: none;
 }
 
@@ -2169,7 +1961,6 @@ right_pane {
 }
 
 body {
-  font-size: 1.1em;
   color: #e2e2e2;
 }
 
@@ -2180,14 +1971,13 @@ body {
 .details-pane-title .header-name,
 .notification-header .notification-title {
   font-weight: 600;
-  font-size: 1.3em;
 }
 
 .itemRowView-potToken,
 .SingleTaskTitleInput-taskName .AutogrowTextarea-input,
 .SingleTaskTitleInput-taskName .AutogrowTextarea-shadow {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2196,7 +1986,7 @@ body {
 
 .bar-row .bar_input_span {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2205,7 +1995,7 @@ body {
 
 .bar-row .task-row-text-input {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2215,7 +2005,7 @@ body {
 .full-width-header .header-name,
 .grid_due_date.overdue {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2229,7 +2019,7 @@ body {
 .CustomPropertyTextValueInput .autogrowTextarea-input,
 .CustomPropertyTextValueInput .autogrowTextarea-shadow {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2238,12 +2028,11 @@ body {
 
 .taskDetailsView-description .autogrow-textarea {
   font-family: Operator SSM, SF Mono, FuraCode Nerd Font,
-    FuraCode Nerd Font Mono, Dank Mono, Hasklig, Operator Mono, monospace;
+  FuraCode Nerd Font Mono, Dank Mono, Hasklig, Operator Mono, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  font-size: 0.95em;
 }
 
 .navigationDockDomainView-teamSectionHeader-label,
@@ -2251,7 +2040,7 @@ body {
 .team-header,
 .team-name navigationDockTeamView-teamName {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2268,7 +2057,6 @@ body {
 
 .navigationDockItemView-label {
   font-weight: 400;
-  font-size: 0.85em;
   line-height: 48px;
 }
 
@@ -2278,7 +2066,7 @@ body {
 
 .new-project-text {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2288,23 +2076,21 @@ body {
 
 .multiline {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  font-size: 1em;
 }
 
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input,
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  font-size: 1.6em;
 }
 
 .BoardCard-name,
@@ -2323,7 +2109,7 @@ body {
 .tagTokenSource-tagLabel--pill,
 .taskTagsView-tokenArea .tokenView {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2335,7 +2121,7 @@ body {
 .react-mount-node .textInput,
 .simpleTextarea {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2356,12 +2142,9 @@ body {
   color: #009688;
 }
 
-.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect:hover
-  .FloatingSelect-icon,
-.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect:focus
-  .FloatingSelect-icon,
-.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect.is-dropdownVisible
-  .FloatingSelect-icon {
+.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect:hover .FloatingSelect-icon,
+.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect:focus .FloatingSelect-icon,
+.TaskProjectColumnInfo-dropdown--spreadsheet.FloatingSelect.is-dropdownVisible .FloatingSelect-icon {
   fill: #009688;
 }
 
@@ -2391,10 +2174,6 @@ body {
   border-color: #42424270;
 }
 
-.textEditor-container .ql-editor {
-  font-size: 1.1em;
-}
-
 .TextEditor-container.TextEditor--dynamic:hover {
   border-color: #424242;
 }
@@ -2413,24 +2192,11 @@ body {
 }
 
 .Pill.Pill--small {
-  font-size: 0.7em;
   font-weight: 600;
-}
-
-.react-mount-node .Tokenizer {
-  font-size: 1em !important;
-}
-
-.react-mount-node .Pill.Pill--large {
-  font-size: 0.9em;
 }
 
 .react-mount-node .sectionRow-sectionName {
   background-color: #eb8181 !important;
-}
-
-.grid-tags-and-date .grid_due_date {
-  font-size: 0.8em;
 }
 
 .grid_due_date.due_soon {
@@ -2532,17 +2298,15 @@ textarea:hover:not(.override-hover-border):not([disabled]) {
 .MiniHeartButton.MiniHeartButton--hearted {
   font-weight: 900;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
 }
 
-.HeartButton-button--withThumbsUp.CircularToggleButton--toggledOff
-  .CircularButton--enabled:focus,
-.HeartButton-button--withThumbsUp.CircularToggleButton--toggledOff
-  .CircularButton--enabled:hover {
+.HeartButton-button--withThumbsUp.CircularToggleButton--toggledOff .CircularButton--enabled:focus,
+.HeartButton-button--withThumbsUp.CircularToggleButton--toggledOff .CircularButton--enabled:hover {
   box-shadow: 0 0 0 3px #009688;
   color: #009688;
   fill: #fefefe;
@@ -2615,12 +2379,10 @@ textarea:hover:not(.override-hover-border):not([disabled]) {
 .generic-input.recurly-hosted-field-focus:not(.override-focus-border),
 .generic-input:focus:not(.override-focus-border),
 .recurly .recurly-hosted-field.focused:not(.override-focus-border),
-.recurly
-  .recurly-hosted-field.recurly-hosted-field-focus:not(.override-focus-border),
+.recurly .recurly-hosted-field.recurly-hosted-field-focus:not(.override-focus-border),
 .recurly .recurly-hosted-field:focus:not(.override-focus-border),
 .recurly input[type="text"].focused:not(.override-focus-border),
-.recurly
-  input[type="text"].recurly-hosted-field-focus:not(.override-focus-border),
+.recurly input[type="text"].recurly-hosted-field-focus:not(.override-focus-border),
 .recurly input[type="text"]:focus:not(.override-focus-border),
 textarea.focused:not(.override-focus-border),
 textarea.recurly-hosted-field-focus:not(.override-focus-border),
@@ -2633,11 +2395,9 @@ textarea:focus:not(.override-focus-border) {
 .generic-input.showing.recurly-hosted-field-focus:not(.override-focus-border),
 .generic-input.showing:focus:not(.override-focus-border),
 .recurly .recurly-hosted-field.showing.focused:not(.override-focus-border),
-.recurly
-  .recurly-hosted-field.showing.recurly-hosted-field-focus:not(.override-focus-border),
+.recurly .recurly-hosted-field.showing.recurly-hosted-field-focus:not(.override-focus-border),
 .recurly input[type="text"].showing.focused:not(.override-focus-border),
-.recurly
-  input[type="text"].showing.recurly-hosted-field-focus:not(.override-focus-border),
+.recurly input[type="text"].showing.recurly-hosted-field-focus:not(.override-focus-border),
 textarea.showing.focused:not(.override-focus-border),
 textarea.showing.recurly-hosted-field-focus:not(.override-focus-border),
 textarea.showing:focus:not(.override-focus-border) {
@@ -2655,12 +2415,6 @@ textarea.showing:focus:not(.override-focus-border) {
 
 .react-mount-node .textInput {
   font-weight: 400;
-  font-size: 0.9em;
-}
-
-.code,
-.hypertext-input code {
-  font-size: 0.9em;
 }
 
 .react-mount-node .CustomPropertyDetailsRowStructure-label,
@@ -2668,15 +2422,11 @@ textarea.showing:focus:not(.override-focus-border) {
 .react-mount-node .CustomPropertyProtoRow-description,
 .react-mount-node .CustomPropertyProtoRow-name,
 .react-mount-node .dialog-headerTitle,
-.react-mount-node
-  .sectionRow-sectionName.taskName-autogrowTextarea
-  .autogrowTextarea-input,
-.react-mount-node
-  .sectionRow-sectionName.taskName-autogrowTextarea
-  .autogrowTextarea-shadow,
+.react-mount-node .sectionRow-sectionName.taskName-autogrowTextarea .autogrowTextarea-input,
+.react-mount-node .sectionRow-sectionName.taskName-autogrowTextarea .autogrowTextarea-shadow,
 .react-mount-node .textEditor-container {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2685,10 +2435,6 @@ textarea.showing:focus:not(.override-focus-border) {
 
 .react-mount-node .CustomPropertyDetailsRowStructure-label {
   font-weight: 600;
-}
-
-.CustomPropertyDetailsRowStructure-label {
-  font-size: 10px;
 }
 
 .react-mount-node .dropdownMenu {
@@ -2711,13 +2457,9 @@ textarea.showing:focus:not(.override-focus-border) {
   font-weight: 600;
 }
 
-.GridTaskList {
-  font-size: 1em;
-}
-
 .hypertext-input code {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2735,7 +2477,7 @@ textarea.showing:focus:not(.override-focus-border) {
 .dialog--nux-content .title,
 .dialog2 .header .title {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2789,10 +2531,6 @@ textarea.showing:focus:not(.override-focus-border) {
   border-top: 0;
 }
 
-.details-pane-title .header-name {
-  font-size: 18px;
-}
-
 a {
   color: #009688;
   text-decoration: none;
@@ -2828,8 +2566,7 @@ a {
   border-bottom: 1px solid #42424270;
 }
 
-.DatePickerCalendarDate--oneDaySelection.DatePickerCalendarDate--showSelectionBackground
-  .DatePickerCalendarDate-selectionBackground {
+.DatePickerCalendarDate--oneDaySelection.DatePickerCalendarDate--showSelectionBackground .DatePickerCalendarDate-selectionBackground {
   background: #009688;
 }
 
@@ -2895,7 +2632,6 @@ a:hover {
 .dialog2 {
   background-color: #212121;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  font-size: 13px;
   color: #e2e2e2;
 }
 
@@ -3035,7 +2771,6 @@ textarea.showing {
 
 .dialog--nux-content .title {
   color: #009688;
-  font-size: 36px;
   font-weight: 400;
 }
 
@@ -3063,7 +2798,7 @@ textarea.showing {
 
 .NumberedTaskList-number {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3336,7 +3071,7 @@ textarea.showing {
 
 .CustomPropertyProtoRow-name {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3356,12 +3091,11 @@ textarea.showing {
 .PotColorPicker-setForEveryone,
 .react-mount-node .CustomPropertyTextValueInput .autogrowTextarea-input {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace;
+  Source Sans Pro, IBM Plex Sans, monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  font-size: 0.8em;
 }
 
 .Board--hasViewMenu .BoardColumnHeaderTitle,
@@ -3383,7 +3117,7 @@ textarea.showing {
 .textEditor-container,
 .TextEditor-container {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3475,23 +3209,12 @@ inbox .inbox-thread-wrapper .project-footer .show-more-link:hover {
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--complete,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:hover,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:not(.TaskRowCompletionStatus-checkbox--disabled):hover,
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-.itemListInboxThreadView-notification
-  .selected.story
-  .referenced-task-row-view
-  .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button,
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton.CircularToggleButton--toggledOff
-  .CircularButton--enabled:hover,
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+.itemListInboxThreadView-notification .selected.story .referenced-task-row-view .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button,
+.react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOff .CircularButton--enabled:hover,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   color: #e2e2e2;
   fill: #e2e2e2;
   background: #424242;
@@ -3515,7 +3238,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .ProjectMembersDialogContent-label {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3602,7 +3325,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .ToastContainer {
   width: 230px;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #303030;
   color: #fefefe;
 }
@@ -3647,7 +3370,6 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .attachment-card-attachment-link,
 .hover-no-change-attachment-card-attachment-link {
   color: #009688;
-  font-size: 13px;
   font-weight: 600;
 }
 
@@ -3715,7 +3437,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .InboxThreadHeader-title {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3737,12 +3459,6 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .BoardPlaceholder-columnHeader {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
   background: #212121;
 }
 
@@ -3754,18 +3470,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .CalendarHeaderPlaceholder-button {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3793,18 +3505,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .ConversationsPlaceholder-avatar {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3819,18 +3527,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .ConversationsPlaceholder-conversationTitle {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3853,18 +3557,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .PotGridPlaceholder-button {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3877,18 +3577,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .PotGridBodyPlaceholder-taskContent {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3899,18 +3595,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
   background-color: #212121;
-  background-image: -webkit-linear-gradient(
-    right,
-    rgba(255, 255, 255, 0) 0,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    rgba(255, 255, 255, 0) 0,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  rgba(255, 255, 255, 0) 0,
+  rgba(255, 255, 255, 0.1) 50%,
+  rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient( -90deg,
+  rgba(255, 255, 255, 0) 0,
+  rgba(255, 255, 255, 0.1) 50%,
+  rgba(255, 255, 255, 0) 100%);
 }
 
 .SingleTaskPanePlaceholder-circle,
@@ -3919,18 +3611,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .SingleTaskPanePlaceholder-toolbarContent {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -3952,12 +3640,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .TopbarPlaceholder-longContent,
 .TopbarPlaceholder-shortContent {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
   animation: animation-shimmering 0.1s linear infinite;
 }
@@ -3995,18 +3681,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .PageHeaderPlaceholder-titleContent {
   -webkit-animation: animation-shimmering 0.1s linear infinite;
   animation: animation-shimmering 0.1s linear infinite;
-  background-image: -webkit-linear-gradient(
-    right,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
-  background-image: linear-gradient(
-    -90deg,
-    #212121 0,
-    #212121 50%,
-    #212121 100%
-  );
+  background-image: -webkit-linear-gradient( right,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
+  background-image: linear-gradient( -90deg,
+  #212121 0,
+  #212121 50%,
+  #212121 100%);
   background-color: #212121;
 }
 
@@ -4119,7 +3801,6 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .Board--hasViewMenu .BoardColumnHeaderTitle,
 .BoardBody-columnInBoardWithViewMenu .BoardColumnHeaderTitle {
-  font-size: 1.2em;
   font-weight: 900;
   line-height: 30px;
 }
@@ -4212,10 +3893,6 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   fill: #fefefe70;
 }
 
-.Token {
-  font-size: 0.75em;
-}
-
 .Tokenizer.is-focused {
   -webkit-animation: none;
   animation: none;
@@ -4253,17 +3930,11 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .dropdown .typeahead-dropdown-contents .action.selected,
-.dropdown
-  .typeahead-dropdown-contents
-  .action:hover:not(.disabled):not(.selectable),
+.dropdown .typeahead-dropdown-contents .action:hover:not(.disabled):not(.selectable),
 .dropdown .typeahead-dropdown-contents .item.selected,
-.dropdown
-  .typeahead-dropdown-contents
-  .item:hover:not(.disabled):not(.selectable),
+.dropdown .typeahead-dropdown-contents .item:hover:not(.disabled):not(.selectable),
 .dropdown .typeahead-dropdown-contents .menu-item.selected,
-.dropdown
-  .typeahead-dropdown-contents
-  .menu-item:hover:not(.disabled):not(.selectable) {
+.dropdown .typeahead-dropdown-contents .menu-item:hover:not(.disabled):not(.selectable) {
   background-color: #009688;
   border-color: #42424270;
 }
@@ -4394,7 +4065,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .SingleTaskPaneSpreadsheet-header {
-  background: #1c1c1c;
+  background: #212121;
 }
 
 .SingleTaskPaneSpreadsheet-feed {
@@ -4435,7 +4106,6 @@ strong {
 }
 
 .BoardCardWithCustomProperties-name {
-  font-size: 1.1em;
   font-weight: 600;
 }
 
@@ -4797,8 +4467,7 @@ strong {
   color: #fefefe;
 }
 
-.TopbarSearchAdvancedSearchItem--oldStyle.TopbarSearchAdvancedSearchItem--highlighted
-  .TopbarSearchAdvancedSearchItem-title {
+.TopbarSearchAdvancedSearchItem--oldStyle.TopbarSearchAdvancedSearchItem--highlighted .TopbarSearchAdvancedSearchItem-title {
   font-weight: 800;
   color: #fefefe;
 }
@@ -4906,21 +4575,19 @@ strong {
 
 .CustomPropertyTextEditablePreviewCell .textInput {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, monospace !important;
+  Source Sans Pro, IBM Plex Sans, monospace !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
 }
 
-.SidebarCollapsibleHeader--withoutClarifiedNavigation
-  .SidebarCollapsibleHeader-name,
+.SidebarCollapsibleHeader--withoutClarifiedNavigation .SidebarCollapsibleHeader-name,
 .SidebarItemRow-name,
 .SidebarReportsItemRow,
-.SidebarTeamMembershipHeader--withoutClarifiedNavigation
-  .SidebarTeamMembershipHeader-teamName {
+.SidebarTeamMembershipHeader--withoutClarifiedNavigation .SidebarTeamMembershipHeader-teamName {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4940,8 +4607,7 @@ strong {
   background: 0 0;
 }
 
-.SidebarCollapsibleHeader--withoutClarifiedNavigation
-  .SidebarCollapsibleHeader-name {
+.SidebarCollapsibleHeader--withoutClarifiedNavigation .SidebarCollapsibleHeader-name {
   color: #009688;
 }
 
@@ -4957,25 +4623,21 @@ strong {
 
 .TopbarPageHeaderGlobalActions,
 .TopbarPageHeaderGlobalActionsPlaceholder,
-.TopbarSearchTypeahead--withClarifiedNavigation
-  .TopbarSearchTypeahead-background {
+.TopbarSearchTypeahead--withClarifiedNavigation .TopbarSearchTypeahead-background {
   background-color: #202020;
 }
 
-.TopbarSearchTypeahead--withClarifiedNavigation
-  .TopbarSearchTypeahead-background::before {
+.TopbarSearchTypeahead--withClarifiedNavigation .TopbarSearchTypeahead-background::before {
   background-image: none;
   border-left: 1px solid #42424270;
 }
 
-.TopbarSearchTypeahead--withClarifiedNavigation
-  .TopbarSearchTypeahead-input:not(:focus) {
+.TopbarSearchTypeahead--withClarifiedNavigation .TopbarSearchTypeahead-input:not(:focus) {
   background-color: #303030;
   border-color: #212121;
 }
 
-.projectHeaderFacepile-clarifiedNavigationFacepileClickable:hover
-  .Facepile-item {
+.projectHeaderFacepile-clarifiedNavigationFacepileClickable:hover .Facepile-item {
   box-shadow: 0 0 0 2px #424242, inset 0 0 0 1px rgba(0, 0, 0, 0.07);
 }
 
@@ -4986,7 +4648,7 @@ strong {
 .TopbarPageHeaderStructure-title {
   color: #fefefe;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4997,13 +4659,12 @@ strong {
 .ClarifiedNavigationHeaderView-title,
 .SidebarCollapsibleHeader--withClarifiedNavigation,
 .SidebarReportsItemRow.SidebarReportsItemRow--withClarifiedNavigation,
-.SidebarTeamMembershipHeader--clarifiedNavigation
-  .SidebarTeamMembershipHeader-teamName,
+.SidebarTeamMembershipHeader--clarifiedNavigation .SidebarTeamMembershipHeader-teamName,
 .SingleTaskTitleInput-taskName .autogrowTextarea-input,
 .SingleTaskTitleInput-taskName .autogrowTextarea-shadow,
 .CommentComposerEditor {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5060,7 +4721,7 @@ strong {
 }
 
 .FollowersBar {
-  background: #212121;
+  background: #262626;
 }
 
 .FollowersList-placeholderAvatar.DomainUserAvatar:not(.DomainUserAvatar--isDisabled).DomainUserAvatar--noValue {
@@ -5076,8 +4737,7 @@ strong {
   border-color: #fefefe70;
 }
 
-.ToggleBellButton-toggleButton.ToggleBellButton--on
-  > .ToggleBellButton-toggleText {
+.ToggleBellButton-toggleButton.ToggleBellButton--on > .ToggleBellButton-toggleText {
   color: #fefefe70;
   fill: #fefefe70;
   border-color: #fefefe70;
@@ -5108,7 +4768,7 @@ strong {
 .ConversationTitle,
 .ConversationBody-title {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5317,19 +4977,16 @@ strong {
   fill: #fefefe;
 }
 
-.CustomPropertyTextEditablePreviewCell:hover
-  .CustomPropertyTextEditablePreviewCell-input--linkEnabled:not(:hover):not(:focus) {
+.CustomPropertyTextEditablePreviewCell:hover .CustomPropertyTextEditablePreviewCell-input--linkEnabled:not(:hover):not(:focus) {
   background-color: #676767;
   border-color: #42424270;
 }
 
-.CustomPropertyTextEditablePreviewCell:hover
-  .CustomPropertyTextEditablePreviewCell-input--linkEnabled {
+.CustomPropertyTextEditablePreviewCell:hover .CustomPropertyTextEditablePreviewCell-input--linkEnabled {
   border-color: #676767;
 }
 
-.CustomPropertyHeader-fieldHeading--highlighted
-  .CustomPropertyHeader-fieldName {
+.CustomPropertyHeader-fieldHeading--highlighted .CustomPropertyHeader-fieldName {
   color: #009688;
   font-weight: 700;
 }
@@ -5354,15 +5011,9 @@ strong {
   display: none;
 }
 
-.HubList--layoutRows
-  .HubList-draggableItemWrapper:not(:last-child)
-  .HubList-item
-  .RowStructure::after,
+.HubList--layoutRows .HubList-draggableItemWrapper:not(:last-child) .HubList-item .RowStructure::after,
 .HubList--layoutRows .HubList-item:not(:last-child) .RowStructure::after,
-.HubList--layoutRows
-  .HubList-nonDraggableItemWrapper:not(:last-child)
-  .HubList-item
-  .RowStructure::after {
+.HubList--layoutRows .HubList-nonDraggableItemWrapper:not(:last-child) .HubList-item .RowStructure::after {
   border-bottom: 1px solid #303030;
   color: #fefefe;
 }
@@ -5373,8 +5024,7 @@ strong {
   color: #009688;
 }
 
-.taskCheckboxNodeView--withoutEmptyCheckCircleExperiment.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.taskCheckboxNodeView--withoutEmptyCheckCircleExperiment.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   background-color: #303030;
   border: 1px solid #42424270;
   fill: #fefefe;
@@ -5440,8 +5090,7 @@ div.tooltip-body {
   fill: #009688;
 }
 
-.CustomPropertyContainerSettingsAddFieldsLink-addFieldLink:hover
-  .CustomPropertyContainerSettingsAddFieldsLink-addFieldLinkIcon,
+.CustomPropertyContainerSettingsAddFieldsLink-addFieldLink:hover .CustomPropertyContainerSettingsAddFieldsLink-addFieldLinkIcon,
 .CustomPropertyContainerSettingsAddFieldsLink-addFieldLinkIcon {
   background-color: #009688;
 }
@@ -5512,8 +5161,7 @@ div.tooltip-body {
 
 .PageToolbarStructure {
   background-color: #212121;
-  border-top: 1px solid #303030;
-  border-bottom: none;
+  border-color: #303030;
 }
 
 .AdminConsole,
@@ -5529,7 +5177,7 @@ div.tooltip-body {
 
 .AdminConsoleTeamsListHeader-cell {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5572,7 +5220,7 @@ div.tooltip-body {
   color: #fefefe75;
   border-bottom: 1px solid #42424270;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5607,12 +5255,10 @@ div.tooltip-body {
 
 .SingleTaskPanePlaceholder-buttonContent {
   background-color: #303030;
-  background-image: linear-gradient(
-    -90deg,
-    #303030 0%,
-    #424242 50%,
-    #303030 100%
-  );
+  background-image: linear-gradient( -90deg,
+  #303030 0%,
+  #424242 50%,
+  #303030 100%);
 }
 
 .AttachmentCard {
@@ -5666,7 +5312,7 @@ div.tooltip-body {
 .QuickAddTaskContents-nameInput,
 .AttachmentCard-name {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5762,8 +5408,7 @@ div.tooltip-body {
   fill: #fefefe75;
 }
 
-.StatusUpdateHeaderWidget-addStatusPrompt:hover
-  .StatusUpdateHeaderWidget-addStatusPromptText {
+.StatusUpdateHeaderWidget-addStatusPrompt:hover .StatusUpdateHeaderWidget-addStatusPromptText {
   color: #009688;
 }
 
@@ -5867,8 +5512,7 @@ div.tooltip-body {
 .TaskAddedToPotInboxThread:hover .InboxReferencedTaskItem-taskName,
 .InboxExpandableThread:hover,
 .InboxExpandableThread:hover .InboxIconAndNameContext-name--withDefaultColors,
-.TaskAddedToPotInboxThread:hover
-  .InboxIconAndNameContext-name--withDefaultColors {
+.TaskAddedToPotInboxThread:hover .InboxIconAndNameContext-name--withDefaultColors {
   color: #fefefe;
   fill: #fefefe;
 }
@@ -5959,11 +5603,9 @@ div.tooltip-body {
 }
 
 .DraggableSpreadsheetTaskRow-dragHandle,
-.DraggableSpreadsheetTaskRow--isSelected
-  .DraggableSpreadsheetTaskRow-dragHandle,
+.DraggableSpreadsheetTaskRow--isSelected .DraggableSpreadsheetTaskRow-dragHandle,
 .SpreadsheetItemListEmptyCells-dragHandlePlaceholder,
-.DraggableSpreadsheetTaskRow--withShadedBackground
-  .DraggableSpreadsheetTaskRow-dragHandle {
+.DraggableSpreadsheetTaskRow--withShadedBackground .DraggableSpreadsheetTaskRow-dragHandle {
   border-bottom: 1px solid #212121;
   border-top: 1px solid #212121;
 }
@@ -5990,9 +5632,7 @@ div.tooltip-body {
 }
 
 .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused):hover,
-.SpreadsheetProjectGridContents--withSpreadsheetTextBoxOnNameCellHover
-  .SpreadsheetTaskNameCell:hover
-  .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
+.SpreadsheetProjectGridContents--withSpreadsheetTextBoxOnNameCellHover .SpreadsheetTaskNameCell:hover .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
   background-color: #424242;
   border: 1px solid #42424270;
 }
@@ -6073,7 +5713,7 @@ div.tooltip-body {
 .AssigneeWithNameDisplay-name,
 .Hovercard-caption {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6124,15 +5764,13 @@ div.tooltip-body {
   border-bottom: 1px solid #42424270;
 }
 
-.CustomPropertyTextEditablePreviewCell--isInsideCell
-  .CustomPropertyTextEditablePreviewCell-input:hover,
+.CustomPropertyTextEditablePreviewCell--isInsideCell .CustomPropertyTextEditablePreviewCell-input:hover,
 .FormElementButton.FormElementButton--modern:not(.FormElementButton--disabled):focus,
 .FormElementButton.FormElementButton--modern:not(.FormElementButton--disabled):hover {
   background-color: #303030;
 }
 
-.CustomPropertyTextEditablePreviewCell--isInsideCell
-  .CustomPropertyTextEditablePreviewCell-input:focus,
+.CustomPropertyTextEditablePreviewCell--isInsideCell .CustomPropertyTextEditablePreviewCell-input:focus,
 .FormElementButton.FormElementButton--basic:not(.FormElementButton--disabled):focus,
 .FormElementButton.FormElementButton--basic:not(.FormElementButton--disabled):hover {
   background-color: #303030;
@@ -6148,12 +5786,9 @@ div.tooltip-body {
   border: 1px solid #303030;
 }
 
-.SpreadsheetItemListEmptyCells-addTaskRow:hover
-  .SpreadsheetItemListEmptyCells-nameCell,
-.SpreadsheetItemListEmptyCells-addTaskRow:hover
-  .SpreadsheetItemListEmptyCells-dragHandlePlaceholder,
-.SpreadsheetItemListEmptyCells-addTaskRow:hover
-  .SpreadsheetItemListEmptyCells-cell {
+.SpreadsheetItemListEmptyCells-addTaskRow:hover .SpreadsheetItemListEmptyCells-nameCell,
+.SpreadsheetItemListEmptyCells-addTaskRow:hover .SpreadsheetItemListEmptyCells-dragHandlePlaceholder,
+.SpreadsheetItemListEmptyCells-addTaskRow:hover .SpreadsheetItemListEmptyCells-cell {
   background-color: #303030;
   border-color: #42424270;
 }
@@ -6162,8 +5797,7 @@ div.tooltip-body {
   background-color: #303030;
 }
 
-.DueDateContainer.DueDateContainer--isPopoverVisible
-  .DueDateContainer-button.DueDateContainer-button--circular {
+.DueDateContainer.DueDateContainer--isPopoverVisible .DueDateContainer-button.DueDateContainer-button--circular {
   background-color: #009688;
   border: 1px solid #009688;
   box-shadow: inset 0 1px #009688;
@@ -6179,10 +5813,8 @@ div.tooltip-body {
 }
 
 .BoardColumnWithNonsortableTasks-scrollableContainer::before {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.01),
-    rgba(255, 255, 255, 0)
-  );
+  background-image: linear-gradient( rgba(255, 255, 255, 0.01),
+  rgba(255, 255, 255, 0));
 }
 
 .Timeline {
@@ -6191,13 +5823,11 @@ div.tooltip-body {
 }
 
 .TimelineCanvasPlaceholder {
-  background: repeating-linear-gradient(
-    to right,
-    #303030,
-    #212121 51px,
-    #303030 10px,
-    #212121 181px
-  );
+  background: repeating-linear-gradient( to right,
+  #303030,
+  #212121 51px,
+  #303030 10px,
+  #212121 181px);
 }
 
 .TimelineCanvas {
@@ -6249,7 +5879,7 @@ div.tooltip-body {
 
 .TimelineGroupWithNamesSidebar-name {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6264,12 +5894,10 @@ div.tooltip-body {
   -webkit-animation: animation-shimmering 1.5s linear infinite;
   animation: animation-shimmering 1.5s linear infinite;
   background-color: #303030;
-  background-image: linear-gradient(
-    -90deg,
-    #424242 0%,
-    #303030 50%,
-    #424242 100%
-  );
+  background-image: linear-gradient( -90deg,
+  #424242 0%,
+  #303030 50%,
+  #424242 100%);
 }
 
 .TimelinePlaceholder-timeAxis {
@@ -6327,13 +5955,10 @@ div.tooltip-body {
 }
 
 .SpreadsheetDueDateCell-removeButton,
-.SpreadsheetCell--withShadedBackground
-  .SpreadsheetDueDateInputCell-removeButton,
-.SpreadsheetCell:focus-within:not(:focus)
-  .SpreadsheetDueDateInputCell-removeButton,
+.SpreadsheetCell--withShadedBackground .SpreadsheetDueDateInputCell-removeButton,
+.SpreadsheetCell:focus-within:not(:focus) .SpreadsheetDueDateInputCell-removeButton,
 .SpreadsheetAssigneeInputCell-removeButton,
-.SpreadsheetCell:focus-within:not(:focus)
-  .SpreadsheetAssigneeInputCell-removeButton,
+.SpreadsheetCell:focus-within:not(:focus) .SpreadsheetAssigneeInputCell-removeButton,
 .SpreadsheetDueDateInputCell-removeButton,
 .SpreadsheetAssigneeCell-removeButton,
 .SpreadsheetCell--withShadedBackground .SpreadsheetAssigneeCell-removeButton,
@@ -6349,12 +5974,10 @@ div.tooltip-body {
   -webkit-animation: animation-shimmering 1.5s linear infinite;
   animation: animation-shimmering 1.5s linear infinite;
   background-color: #303030;
-  background-image: linear-gradient(
-    -90deg,
-    #303030 0%,
-    #424242 50%,
-    #303030 100%
-  );
+  background-image: linear-gradient( -90deg,
+  #303030 0%,
+  #424242 50%,
+  #303030 100%);
 }
 
 .AutomationDialogStructure-dialogHeader {
@@ -6430,12 +6053,11 @@ div.tooltip-body {
 .BoardCardNameInput-autogrowTextarea--small .autogrowTextarea-shadow,
 .BoardAddCardForm-input {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-numeric: tabular-nums;
-  font-size: 16px;
 }
 
 .CircularButton--circular {
@@ -6480,46 +6102,24 @@ div.tooltip-body {
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--complete,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:hover,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:not(.TaskRowCompletionStatus-checkbox--disabled):hover,
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-.itemListInboxThreadView-notification
-  .selected.story
-  .referenced-task-row-view
-  .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button,
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton.CircularToggleButton--toggledOff
-  .CircularButton--enabled:hover,
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+.itemListInboxThreadView-notification .selected.story .referenced-task-row-view .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button,
+.react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOff .CircularButton--enabled:hover,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   background-color: #009688;
 }
 
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--complete,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:hover,
 .TaskRowCompletionStatus-checkbox.TaskRowCompletionStatus-checkbox--incomplete:not(.TaskRowCompletionStatus-checkbox--disabled):hover,
-.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-.itemListInboxThreadView-notification
-  .selected.story
-  .referenced-task-row-view
-  .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button,
-.react-mount-node
-  .CompletionCheckbox
-  .CircularToggleButton.CircularToggleButton--toggledOff
-  .CircularButton--enabled:hover,
-.react-mount-node
-  .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
-.taskCheckboxNodeView.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button:hover,
-taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
-  .circularToggleButtonView-button {
+.detailsTitle-checkmarkButton.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+.itemListInboxThreadView-notification .selected.story .referenced-task-row-view .referencedTaskRowView-checkButton:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button,
+.react-mount-node .CompletionCheckbox .CircularToggleButton.CircularToggleButton--toggledOff .CircularButton--enabled:hover,
+.react-mount-node .taskRowCompletionStatus-checkbox.taskRowCompletionStatus-checkbox--incomplete:hover,
+.taskCheckboxNodeView.circularToggleButtonView--toggledOff .circularToggleButtonView-button:hover,
+taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleButtonView-button {
   background: #009688;
   box-shadow: none;
   border-color: #42424270;
@@ -6541,8 +6141,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   color: #fefefe;
 }
 
-.SpreadsheetTaskNameCell:hover
-  .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
+.SpreadsheetTaskNameCell:hover .SpreadsheetTaskName--editable:not(.SpreadsheetTaskName--childFocused) {
   background: #424242;
   border: 1px solid #42424270 !important;
 }
@@ -6555,18 +6154,14 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   background-image: none;
 }
 
-.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutHighlight:hover
-  .SpreadsheetCell,
-.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutHighlight:hover
-  .SpreadsheetPlaceholderCell {
+.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutHighlight:hover .SpreadsheetCell,
+.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutHighlight:hover .SpreadsheetPlaceholderCell {
   background-color: #303030;
 }
 
-.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutShadedBackground:hover
-  .SpreadsheetPlaceholderCell,
+.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetPlaceholderCell,
 .SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutShadedBackground:hover,
-.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutShadedBackground:hover
-  .SpreadsheetCell,
+.SpreadsheetTaskRow--isSpreadsheetRowHoverEnabled.SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetCell,
 .SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetCell,
 .SpreadsheetTaskRow--withoutShadedBackground:hover,
 .SpreadsheetTaskRow--withoutShadedBackground:hover .SpreadsheetPlaceholderCell {
@@ -6660,13 +6255,11 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .BoardColumnWithSortableTasks-sortableList::before,
 .BoardColumnWithSortableTasks-sortableList--isEmpty {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(48, 48, 48, 0.7)),
-    to(rgba(33, 33, 33, 0))
-  );
+  background-image: -webkit-gradient( linear,
+  left top,
+  left bottom,
+  from(rgba(48, 48, 48, 0.7)),
+  to(rgba(33, 33, 33, 0)));
   background-image: linear-gradient(rgba(48, 48, 48, 0.7), rgba(33, 33, 33, 0));
 }
 
@@ -6675,32 +6268,28 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell,
-.ProjectSpreadsheetAddTaskAndAggregationRow:hover
-  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
 }
 
-.ProjectSpreadsheetAddTaskAndAggregationRow:hover
-  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   border-color: #303030;
 }
 
 .ProjectSpreadsheetAggregationRow-stickyCell,
-.ProjectSpreadsheetAddTaskAndAggregationRow:hover
-  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background: #212121;
 }
 
 .ProjectSpreadsheetAddTaskAndAggregationRow:hover,
-.ProjectSpreadsheetAddTaskAndAggregationRow:hover
-  .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+.ProjectSpreadsheetAddTaskAndAggregationRow:hover .ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
   background-color: #303030;
 }
 
 .ProjectSpreadsheetAddTaskAndAggregationRow-border,
 .ProjectSpreadsheetAddTaskAndAggregationRow-dragHandlePlaceholder,
 .ProjectSpreadsheetAddTaskAndAggregationRow-rightGutter {
-  border-color: #42424275;
+  border: none;
 }
 
 .TeamSettingsDialogListRow-name {
@@ -6747,7 +6336,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .TaskAddedToPotInboxThreadFooter-archiveAllLink,
 .TaskAddedToPotInboxThreadFooter-toggleFollowLink {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6756,10 +6345,8 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .InboxThreadFooter-followupTaskLink,
 .InboxThreadFooter-toggleFollowLink,
-.InboxThreadFooter-toggleFollowButton--isFollowing
-  .InboxThreadFooter-toggleFollowLink,
-.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing
-  .TaskAddedToPotInboxThreadFooter-toggleFollowLink,
+.InboxThreadFooter-toggleFollowButton--isFollowing .InboxThreadFooter-toggleFollowLink,
+.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing .TaskAddedToPotInboxThreadFooter-toggleFollowLink,
 .TaskAddedToPotInboxThreadFooter-archiveAllLink,
 .TaskAddedToPotInboxThreadFooter-toggleFollowLink {
   border-color: #fefefe70;
@@ -6771,14 +6358,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .InboxThreadFooter-followupTaskLink:focus,
 .InboxThreadFooter-toggleFollowLink:hover,
 .InboxThreadFooter-toggleFollowLink:focus,
-.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing
-  .TaskAddedToPotInboxThreadFooter-toggleFollowLink:hover,
-.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing
-  .TaskAddedToPotInboxThreadFooter-toggleFollowLink:focus,
-.InboxThreadFooter-toggleFollowButton--isFollowing
-  .InboxThreadFooter-toggleFollowLink:hover,
-.InboxThreadFooter-toggleFollowButton--isFollowing
-  .InboxThreadFooter-toggleFollowLink:focus {
+.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing .TaskAddedToPotInboxThreadFooter-toggleFollowLink:hover,
+.TaskAddedToPotInboxThreadFooter-toggleFollowButton--isFollowing .TaskAddedToPotInboxThreadFooter-toggleFollowLink:focus,
+.InboxThreadFooter-toggleFollowButton--isFollowing .InboxThreadFooter-toggleFollowLink:hover,
+.InboxThreadFooter-toggleFollowButton--isFollowing .InboxThreadFooter-toggleFollowLink:focus {
   border-color: #009688;
   color: #009688;
   fill: #009688;
@@ -6797,7 +6380,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-bottom-color: #424242;
   color: #ed7b82;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6808,7 +6391,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .fatalErrorDialog-errorContact {
   color: #fefefe;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6818,7 +6401,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 #fatal_error_dialog #error_info {
   color: #fefefe75;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6929,7 +6512,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .Typography {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6945,8 +6528,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-color: #009688;
 }
 
-.ComposerAttachmentsPile-attachmentCardContainer:hover
-  .AttachmentCard--validLink {
+.ComposerAttachmentsPile-attachmentCardContainer:hover .AttachmentCard--validLink {
   background: #009688;
   border-color: #009688;
 }
@@ -6960,7 +6542,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .PotColumnName-nameButton {
   color: #fefefe;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7030,7 +6612,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 
 .MultiSelectToolbarCustomPropertyDetailsRow-label {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7049,7 +6631,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .TaskRowCompletionStatus-checkbox,
 .SpreadsheetHeaderLeftStructure {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7108,7 +6690,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-color: #424242;
   color: #fefefe !important;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7120,13 +6702,11 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   font-weight: 600;
 }
 
-.TeamMembersSection-showAllMembersRow--clickable
-  .TeamMembersSection-showAllMembersIconWrapper {
+.TeamMembersSection-showAllMembersRow--clickable .TeamMembersSection-showAllMembersIconWrapper {
   background: #303030;
 }
 
-.TeamMembersSection-showAllMembersRow--clickable:hover
-  .TeamMembersSection-showAllMembersIconWrapper {
+.TeamMembersSection-showAllMembersRow--clickable:hover .TeamMembersSection-showAllMembersIconWrapper {
   background: #424242;
 }
 
@@ -7149,7 +6729,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .SidebarCollapsibleHeader {
   color: #fefefe70;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7182,8 +6762,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   font-weight: 700;
 }
 
-.LinkOverlayUnfurlStructure-titleLinkText
-  .LinkOverlayUnfurlStructure-titleLinkText--hasUnfurlTitle:hover,
+.LinkOverlayUnfurlStructure-titleLinkText .LinkOverlayUnfurlStructure-titleLinkText--hasUnfurlTitle:hover,
 .LinkOverlayUnfurlStructure-titleLinkText {
   color: #009688;
 }
@@ -7229,7 +6808,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 .StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-input,
 .StatusReportHeaderInput-autogrowTextArea .AutogrowTextarea-shadow {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif !important;
+  Source Sans Pro, IBM Plex Sans, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7240,12 +6819,10 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   -webkit-animation: animation-shimmering 1.5s linear infinite;
   animation: animation-shimmering 1.5s linear infinite;
   background-color: #303030;
-  background-image: linear-gradient(
-    -90deg,
-    #303030 0%,
-    #424242 50%,
-    #303030 100%
-  );
+  background-image: linear-gradient( -90deg,
+  #303030 0%,
+  #424242 50%,
+  #303030 100%);
   background-position: -300px 0;
   background-repeat: no-repeat;
   background-size: 300px 100%;
@@ -7354,8 +6931,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   color: #fefefe;
 }
 
-.TaskAddedToPotInboxClarifiedThread:hover
-  .InboxClarifiedReferencedTaskItem-taskName {
+.TaskAddedToPotInboxClarifiedThread:hover .InboxClarifiedReferencedTaskItem-taskName {
   color: #fefefe;
 }
 
@@ -7413,8 +6989,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   border-color: #424242;
 }
 
-.TaskAddedToPotInboxClarifiedThread:hover
-  .InboxClarifiedIconAndNameContext-name {
+.TaskAddedToPotInboxClarifiedThread:hover .InboxClarifiedIconAndNameContext-name {
   color: #fefefe75;
 }
 
@@ -7453,7 +7028,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   color: #009688;
   fill: #009688;
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7488,8 +7063,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
 }
 
 .InboxClarifiedReferencedTaskItem:hover .InboxClarifiedReferencedTaskItem-inner,
-.InboxClarifiedReferencedTaskItem--animatingCompletion
-  .InboxClarifiedReferencedTaskItem-inner {
+.InboxClarifiedReferencedTaskItem--animatingCompletion .InboxClarifiedReferencedTaskItem-inner {
   background-color: #303030;
 }
 
@@ -7573,19 +7147,16 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff
   text-decoration: none;
 }
 
-.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete
-  .CompoundIcon-outer {
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete .CompoundIcon-outer {
   fill: #424242;
   stroke: #666;
 }
 
-.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete
-  .CompoundIcon-inner {
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--incomplete .CompoundIcon-inner {
   fill: #fefefe;
 }
 
-.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--complete
-  .CompoundIcon-outer {
+.TaskCompletionStatusIndicator.TaskCompletionStatusIndicator--complete .CompoundIcon-outer {
   fill: #009688;
   stroke: #009688;
 }
@@ -7763,8 +7334,7 @@ textarea {
   border-color: #424242;
 }
 
-.CustomPropertyTextEditablePreviewCell--isInsideCell
-  .CustomPropertyTextEditablePreviewCell-input::placeholder {
+.CustomPropertyTextEditablePreviewCell--isInsideCell .CustomPropertyTextEditablePreviewCell-input::placeholder {
   color: #fefefe;
 }
 
@@ -7826,24 +7396,12 @@ textarea {
   background-color: #009688;
 }
 
-.InboxClarifiedExpandableThread--selected
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-badge--shapeCircle,
-.InboxClarifiedExpandableThread--selected
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-badge--shapeSquare,
-.InboxClarifiedExpandableThread--selected
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-diamondBadge,
-.InboxClarifiedExpandableThread--selected:hover
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-badge--shapeCircle,
-.InboxClarifiedExpandableThread--selected:hover
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-badge--shapeSquare,
-.InboxClarifiedExpandableThread--selected:hover
-  .InboxClarifiedStory-avatarBadge.AvatarBadge
-  .AvatarBadge-diamondBadge {
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeCircle,
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeSquare,
+.InboxClarifiedExpandableThread--selected .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-diamondBadge,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeCircle,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-badge--shapeSquare,
+.InboxClarifiedExpandableThread--selected:hover .InboxClarifiedStory-avatarBadge.AvatarBadge .AvatarBadge-diamondBadge {
   box-shadow: 0 0 0 2px #fefefe;
 }
 
@@ -7882,7 +7440,7 @@ textarea {
 
 .SidebarTeamMembershipHeader-teamName {
   font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-    Source Sans Pro, IBM Plex Sans, sans-serif;
+  Source Sans Pro, IBM Plex Sans, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7901,12 +7459,10 @@ textarea {
 
 .MeasuredLoadingState-placeholder {
   background-color: #424242;
-  background-image: linear-gradient(
-    -90deg,
-    #424242 0%,
-    #303030 50%,
-    #424242 100%
-  );
+  background-image: linear-gradient( -90deg,
+  #424242 0%,
+  #303030 50%,
+  #424242 100%);
 }
 
 .LoginContent,
@@ -7945,15 +7501,12 @@ textarea {
   color: #fefefe;
 }
 
-.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover
-  .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
   color: #fefefe75;
 }
 
-.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate
-  .StoryActorName-actorName,
-.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover
-  .StoryActorName-actorName,
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate .StoryActorName-actorName,
+.InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate:hover .StoryActorName-actorName,
 .InboxClarifiedExpandableThread .StoryActorName-actorName,
 .InboxClarifiedExpandableThread .StoryActorName-actorName:hover {
   color: #009688;
@@ -7966,10 +7519,8 @@ textarea {
 .TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate,
 .InboxClarifiedReferencedTaskItem-milestoneNameCommunicationsInboxFeedStyleUpdate,
 .InboxClarifiedReferencedTaskItem-taskNameCommunicationsInboxFeedStyleUpdate,
-.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover
-  .InboxClarifiedReferencedTaskItem-milestoneNameCommunicationsInboxFeedStyleUpdate,
-.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover
-  .InboxClarifiedReferencedTaskItem-taskNameCommunicationsInboxFeedStyleUpdate,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedReferencedTaskItem-milestoneNameCommunicationsInboxFeedStyleUpdate,
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedReferencedTaskItem-taskNameCommunicationsInboxFeedStyleUpdate,
 .TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover,
 .HiddenNavigationLink.HiddenNavigationLink--darkGray2 {
   color: #fefefe;
@@ -8016,8 +7567,7 @@ textarea {
   border-color: #303030;
 }
 
-.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover
-  .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
+.TaskAddedToPotInboxClarifiedThread-communicationsInboxFeedStyleUpdate:hover .InboxClarifiedIconAndNameContext-nameCommunicationsInboxFeedStyleUpdate {
   color: #696969;
 }
 
@@ -8064,12 +7614,8 @@ textarea {
   color: #696969;
 }
 
-.TaskRowCompletionStatus-checkbox
-  .TaskRowCompletionStatus-taskCompletionIcon--incomplete:hover
-  .CompoundIcon-outer,
-.TaskRowCompletionStatus-checkbox
-  .TaskRowCompletionStatus-taskCompletionIcon--incomplete.TaskRowCompletionStatus--active
-  .CompoundIcon-outer {
+.TaskRowCompletionStatus-checkbox .TaskRowCompletionStatus-taskCompletionIcon--incomplete:hover .CompoundIcon-outer,
+.TaskRowCompletionStatus-checkbox .TaskRowCompletionStatus-taskCompletionIcon--incomplete.TaskRowCompletionStatus--active .CompoundIcon-outer {
   fill: #009688;
   stroke: #009688;
   transition: 200ms fill, 200ms stroke;
@@ -8091,8 +7637,7 @@ textarea {
 }
 
 .InboxClarifiedExpandableThread.InboxClarifiedExpandableThread--selected:hover,
-.InboxClarifiedExpandableThread:hover
-  .InboxClarifiedStoryStructure-richTextWithQuotationsWrapper {
+.InboxClarifiedExpandableThread:hover .InboxClarifiedStoryStructure-richTextWithQuotationsWrapper {
   color: #fefefe;
 }
 
@@ -8247,8 +7792,7 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   border-color: #424242;
 }
 
-.InboxClarifiedExpandableThread:hover
-  .InboxClarifiedIconAndNameContext-name--withDefaultColors {
+.InboxClarifiedExpandableThread:hover .InboxClarifiedIconAndNameContext-name--withDefaultColors {
   color: #009688;
 }
 
@@ -8277,8 +7821,7 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   border-color: #424242;
 }
 
-.DatePickerCalendarDateV2--oneDaySelection.DatePickerCalendarDateV2--showSelectionBackground
-  .DatePickerCalendarDateV2-selectionBackground,
+.DatePickerCalendarDateV2--oneDaySelection.DatePickerCalendarDateV2--showSelectionBackground .DatePickerCalendarDateV2-selectionBackground,
 .SidebarReportsItemRow.is-selected:hover,
 .SidebarReportsItemRow.is-selected:focus,
 .SidebarReportsItemRow:hover,
@@ -8287,8 +7830,7 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   background: #009688;
 }
 
-.DatePickerCalendarDateV2--default.DatePickerCalendarDateV2--today
-  .DatePickerCalendarDateV2-selectionBackground {
+.DatePickerCalendarDateV2--default.DatePickerCalendarDateV2--today .DatePickerCalendarDateV2-selectionBackground {
   border-color: #009688;
   background: #009688;
   box-shadow: inset 0 0 0 1px #009688;
@@ -8306,8 +7848,7 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 .SpreadsheetConversationRow--contextMenuOpened,
 .SpreadsheetConversationRow--withoutShadedBackground:hover .SpreadsheetCell,
 .SpreadsheetConversationRow--contextMenuOpened .SpreadsheetCell,
-.SpreadsheetConversationRow--withoutShadedBackground:hover
-  .SpreadsheetPlaceholderCell,
+.SpreadsheetConversationRow--withoutShadedBackground:hover .SpreadsheetPlaceholderCell,
 .SpreadsheetConversationRow--contextMenuOpened .SpreadsheetPlaceholderCell {
   background-color: #303030;
 }
@@ -8395,4 +7936,40 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
 
 .DeprecatedDialog-header {
   border-color: #424242;
+}
+
+.InboxThreadHeader-urgencyIndicator {
+  background: #424242;
+}
+
+.SpreadsheetSectionRow-sectionName {
+  line-height: 1em;
+}
+
+.ProjectOverviewPage .ProjectOverviewPage-mainContent {
+  background-color: #212121;
+  border-color: #303030
+}
+
+.ProjectOverviewKeyResourcesEmptyState-withoutBrief,
+.EmptyStateMilestoneTaskRow {
+  border-color: #424242
+}
+
+.ProjectOverviewPage .ProjectOverviewPage-activityFeed {
+  border-color: #424242;
+  background-color: #303030
+}
+
+.Tab-selectableTab.Tab-selectableTab--isSelected.Tab-selectableTab--colorCoolGray {
+  color: #fefefe;
+}
+
+.TeamOverviewProjectTileDetailed--isMenuOpen .PotTile-structure {
+  background: #424242
+}
+
+.CustomizePane {
+  background-color: #212121;
+  border-color: #303030
 }
