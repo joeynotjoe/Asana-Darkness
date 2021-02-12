@@ -7973,3 +7973,29 @@ body:not(.A11y-focusInvisible) .BaseSelectableCard:focus {
   background-color: #212121;
   border-color: #303030
 }
+
+rect[class*="highcharts"],
+path[class*="highcharts"] {
+  filter: hue-rotate(300deg)
+}
+div[class*="BaseChart-legendIcon--square"] {
+  filter: hue-rotate(300deg)
+}
+.PrimaryButton.AbstractThemeableRectangularButton {
+  background: #009688;
+  border-color: #009688
+}
+.PrimaryButton.AbstractThemeableRectangularButton--isEnabled:hover {
+  background: #00968875;
+  border-color: #00968875
+}
+
+.HiddenLinkButton.HiddenLinkButton--darkGray2:hover {
+  color: #009688;
+  fill: #009688;
+}
+
+.NumFiltersButton.AbstractThemeableRectangularButton {
+  color: #009688;
+  fill: #009688;
+}
