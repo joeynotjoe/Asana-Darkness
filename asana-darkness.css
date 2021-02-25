@@ -11,7 +11,6 @@
 .Topbar,
 .layerContext,
 .AdminConsole,
-.AdminConsolePageStructure-header,
 body {
   background: #191919;
 }
@@ -44,8 +43,7 @@ body {
 .DropTargetAttachment-imageText,
 body,
 html {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -111,8 +109,7 @@ html {
 
 .TypeaheadCreateItem {
   background: 0 0;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -146,8 +143,7 @@ html {
 }
 
 .TopbarSearchResultSection-header {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1546,8 +1542,7 @@ right_pane {
 }
 
 .LabeledRowStructure-label {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1564,8 +1559,7 @@ right_pane {
 
 .TokenButton-title {
   color: #fefefe75;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1985,8 +1979,7 @@ body {
 }
 
 .bar-row .bar_input_span {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1994,8 +1987,7 @@ body {
 }
 
 .bar-row .task-row-text-input {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2039,8 +2031,7 @@ body {
 .navigationDockItemView-label,
 .team-header,
 .team-name navigationDockTeamView-teamName {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2085,8 +2076,7 @@ body {
 
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-input,
 .react-mount-node .SingleTaskTitleRow-taskName .autogrowTextarea-shadow {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2120,8 +2110,7 @@ body {
 .autogrowTextarea-shadow,
 .react-mount-node .textInput,
 .simpleTextarea {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2425,8 +2414,7 @@ textarea.showing:focus:not(.override-focus-border) {
 .react-mount-node .sectionRow-sectionName.taskName-autogrowTextarea .autogrowTextarea-input,
 .react-mount-node .sectionRow-sectionName.taskName-autogrowTextarea .autogrowTextarea-shadow,
 .react-mount-node .textEditor-container {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2476,8 +2464,7 @@ textarea.showing:focus:not(.override-focus-border) {
 .buttonView.buttonView--primary,
 .dialog--nux-content .title,
 .dialog2 .header .title {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3070,8 +3057,7 @@ textarea.showing {
 }
 
 .CustomPropertyProtoRow-name {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3116,8 +3102,7 @@ textarea.showing {
 .dismissable-overlay,
 .textEditor-container,
 .TextEditor-container {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3237,8 +3222,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .ProjectMembersDialogContent-label {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3436,8 +3420,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .InboxThreadHeader-title {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4586,8 +4569,7 @@ strong {
 .SidebarItemRow-name,
 .SidebarReportsItemRow,
 .SidebarTeamMembershipHeader--withoutClarifiedNavigation .SidebarTeamMembershipHeader-teamName {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4647,8 +4629,7 @@ strong {
 
 .TopbarPageHeaderStructure-title {
   color: #fefefe;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4663,8 +4644,7 @@ strong {
 .SingleTaskTitleInput-taskName .autogrowTextarea-input,
 .SingleTaskTitleInput-taskName .autogrowTextarea-shadow,
 .CommentComposerEditor {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4767,8 +4747,7 @@ strong {
 .ConversationBody-fullSize .ConversationBody-title,
 .ConversationTitle,
 .ConversationBody-title {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5176,8 +5155,7 @@ div.tooltip-body {
 }
 
 .AdminConsoleTeamsListHeader-cell {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5219,8 +5197,7 @@ div.tooltip-body {
 .CalendarDay-dayHeader {
   color: #fefefe75;
   border-bottom: 1px solid #42424270;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5311,8 +5288,7 @@ div.tooltip-body {
 
 .QuickAddTaskContents-nameInput,
 .AttachmentCard-name {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5329,7 +5305,8 @@ div.tooltip-body {
 .AdminConsoleMembersListRow:not(:last-child),
 .AdminConsoleOptionRow,
 .OrgSettingsPage-subHeader {
-  border-bottom: 1px solid #42424270;
+  border-bottom: 1px solid #303030;
+  border-color: #303030
 }
 
 .AdminConsoleOptionRow:hover {
@@ -5712,8 +5689,7 @@ div.tooltip-body {
 .AssigneeWithName-name,
 .AssigneeWithNameDisplay-name,
 .Hovercard-caption {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5813,8 +5789,11 @@ div.tooltip-body {
 }
 
 .BoardColumnWithNonsortableTasks-scrollableContainer::before {
-  background-image: linear-gradient( rgba(255, 255, 255, 0.01),
-  rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, rgba(232, 236, 238, 0.05) 0%, rgba(232, 236, 238, 0) 100%)
+}
+
+.BoardColumnWithNonsortableTasks-scrollableContainer--isEmpty {
+  background: linear-gradient(180deg, rgba(232, 236, 238, 0.05) 0%, rgba(232, 236, 238, 0) 100%)
 }
 
 .Timeline {
@@ -5878,8 +5857,7 @@ div.tooltip-body {
 }
 
 .TimelineGroupWithNamesSidebar-name {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6052,8 +6030,7 @@ div.tooltip-body {
 .BoardCardNameInput-autogrowTextarea--small .autogrowTextarea-input,
 .BoardCardNameInput-autogrowTextarea--small .autogrowTextarea-shadow,
 .BoardAddCardForm-input {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6335,8 +6312,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .InboxThreadFooter-toggleFollowLink,
 .TaskAddedToPotInboxThreadFooter-archiveAllLink,
 .TaskAddedToPotInboxThreadFooter-toggleFollowLink {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6379,8 +6355,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .error-heading {
   border-bottom-color: #424242;
   color: #ed7b82;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6390,8 +6365,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .error-directions,
 .fatalErrorDialog-errorContact {
   color: #fefefe;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6400,8 +6374,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 #fatal_error_dialog #error_info {
   color: #fefefe75;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6511,8 +6484,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 }
 
 .Typography {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6541,8 +6513,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .PotColumnName-nameButton {
   color: #fefefe;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -6722,6 +6693,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .SingleTaskPaneSpreadsheet-footer {
   background: #262626;
+  border-color: #303030
 }
 
 .HomeTasksForTodaySection-empty,
@@ -7027,8 +6999,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 .AddedToMembershipDetailStructure-toolbarTitle {
   color: #009688;
   fill: #009688;
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7439,8 +7410,7 @@ textarea {
 }
 
 .SidebarTeamMembershipHeader-teamName {
-  font-family: -apple-system, BlinkMacSystemFont, -system-ui, Lato,
-  Source Sans Pro, IBM Plex Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7467,10 +7437,15 @@ textarea {
 
 .LoginContent,
 .LoginContent-container,
-.LoginContent-postFormForPassword {
+.LoginContent-postFormForPassword,
+.LoginCardLayout {
   background-color: #212121;
 }
 
+.LoginCardLayout-card {
+  background-color: #303030;
+  border-color: #424242
+}
 .LoginContent-logInText {
   color: #fefefe;
 }
@@ -7485,6 +7460,11 @@ textarea {
 
 .LoginContent input {
   background-color: #fefefe15;
+}
+
+.NuxButton.AbstractThemeableRectangularButton {
+  background-color: #009688;
+  border-color: #009688;
 }
 
 .InboxClarifiedExpandableThread-communicationsInboxFeedStyleUpdate.InboxClarifiedExpandableThread--selected,
@@ -7998,4 +7978,86 @@ div[class*="BaseChart-legendIcon--square"] {
 .NumFiltersButton.AbstractThemeableRectangularButton {
   color: #009688;
   fill: #009688;
+}
+
+.ProjectWithColumnTokenContent-dropdownButton.AbstractThemeableRectangularButton {
+  color: #212121;
+  fill: #212121
+}
+
+.PopOutStructure-header--withBorder {
+  border-color: #424242
+}
+
+.DatePickerV2-calendar {
+  border-color: #424242
+}
+
+.DatePickerCalendarDateV2--oneDayHover .DatePickerCalendarDateV2-hoverBackground {
+  background: #009688
+}
+
+.HiddenLinkButton.HiddenLinkButton--darkGray3 {
+  color: #fefefe;
+  fill: #fefefe
+}
+
+.HiddenLinkButton.HiddenLinkButton--darkGray3:hover {
+  color: #009688;
+  fill: #009688
+}
+
+.AdminConsoleInfoMetric-metricNumber,
+.AdminConsoleInsightsPage-sectionTitle,
+.AdminConsoleSidebarRow-name.AdminConsoleSidebarRow-name--selected,
+.AdminConsoleAppsPage-header,
+.AdminConsoleAppWidget-title,
+.AdminConsoleServiceAccountList-header,
+.AdminConsoleResourcesPage-subHeader {
+  color: #009688
+}
+
+.AdminConsoleEmptyStateTableItem,
+.AdminConsoleInsightsPage-sectionSubtitle,
+.AdminConsoleMembersListRowOldStyle-cell,
+.AdminConsoleAppWidget-description,
+.AdminConsoleServiceAccountList-serviceAccountExplanation {
+  color: #fefefe70
+}
+
+.AdminConsoleDomainUserTableItem-name,
+.AdminConsoleSidebarRow-name,
+.AdminConsoleSidebarRow-name:active,
+.AdminConsoleSidebarRow-name:focus,
+.AdminConsoleSidebarRow-name:hover,
+.AdminConsoleTableItem {
+  color: #fefefe
+}
+
+.AdminConsoleInfoBarStructure-item + .AdminConsoleInfoBarStructure-item,
+.AdminConsoleInsightsPage-tableItem,
+.AdminConsoleInsightsPage-tableItem:last-of-type,
+.AdminConsoleEmptyStateTableItem,
+.AdminConsoleEmptyStateTableItem:last-of-type,
+.AdminConsoleMembersListRowOldStyle:not(:last-child),
+.AdminConsolePageStructure-buttons {
+  border-color: #303030
+}
+
+.ConsoleCard-links {
+  border-color: #424242
+}
+
+.AdminConsoleEmptyStateTableItem-avatarPlaceholder {
+  background-color: #303030
+}
+
+.AdminConsoleInsightsPage-upsell::before,
+.AdminConsoleSearchBar-searchIcon,
+.AdminConsoleSidebarHeader--admin {
+  filter: invert(80%)
+}
+
+.AdminConsolePageStructure-header {
+  background: #212121
 }
