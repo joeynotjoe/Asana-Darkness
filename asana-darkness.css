@@ -7636,6 +7636,10 @@ textarea {
   border-color: #42424275;
 }
 
+.TextEditor2 {
+  background-color: #303030;
+}
+
 .TextEditor2.TextEditor2--focused,
 .TextEditor2.TextEditor2--dynamic.TextEditor2--focused {
   border-color: #42424275;
@@ -8060,4 +8064,8 @@ div[class*="BaseChart-legendIcon--square"] {
 
 .AdminConsolePageStructure-header {
   background: #212121
+}
+
+.DynamicTextInput {
+  background-color: #212121;
 }
