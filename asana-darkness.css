@@ -5813,6 +5813,11 @@ div.tooltip-body {
   background: #303030;
 }
 
+.TaskTimelineSidebarHeader-addTask {
+  background-color: #212121;
+  border-color: #303030;
+}
+
 .TaskTimelineGroupSidebar,
 .TaskTimelineScrollable-groupSidebarWrapper {
   background: #212121;
@@ -7178,6 +7183,7 @@ taskCheckboxNodeView:hover.circularToggleButtonView--toggledOff .circularToggleB
 
 .simpleTextarea {
   padding-right: 1px;
+  background-color: #303030;
 }
 
 textarea {
@@ -7647,7 +7653,7 @@ textarea {
 }
 
 .TextEditorStickyBottomBar {
-  background: #212121;
+  background: #303030;
 }
 
 .TextEditorStickyBottomBar.TextEditorStickyBottomBar--pinned {
@@ -8068,4 +8074,39 @@ div[class*="BaseChart-legendIcon--square"] {
 
 .DynamicTextInput {
   background-color: #212121;
+}
+
+.MessageBanner--default a {
+  color: #fefefe
+}
+
+.SecondaryNavigationLink:hover {
+  color: #009688;
+  fill: #009688
+}
+
+.EditorWithSideRail-sideRailScrollable {
+  background: #303030;
+  border-color: #424242
+}
+
+.ProjectBriefPageLayout-topbar--withDivider {
+  border-color: #424242
+}
+
+.TextEditorInsertBlockButton {
+  background-color: #303030;
+}
+
+.ProjectSpreadsheetAddTaskAndAggregationRow-stickyCell {
+  border-color: #303030
+}
+
+.TextInputBase {
+  background-color: #303030;
+  border-color: #303030
+}
+
+.QuickAddTaskToolbar-tokenizerContainer {
+  background: #303030;
 }
