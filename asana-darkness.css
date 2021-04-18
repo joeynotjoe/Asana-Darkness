@@ -816,6 +816,13 @@ a.NavigationLink.topbar-notificationsButton.is-selected {
   color: #009688;
 }
 
+.FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive, .FormElementButton.FormElementButton--secondaryButton.AbstractThemeableRectangularButton--isEnabled:active {
+    background: #424242;
+    border-color: #424242;
+    color: #fefefe;
+    fill: #fefefe;
+}
+
 .ButtonGroupButton--active:focus {
   box-shadow: none;
 }
@@ -5898,6 +5905,10 @@ div.tooltip-body {
 
 .TaskTimelineCanvas-groupDivider {
   background: #424242;
+}
+
+.TaskTimelineGroupSidebarGroup {
+  border-color: #303030
 }
 
 .UnscheduledTasksPanel {
