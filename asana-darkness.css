@@ -8122,6 +8122,11 @@ div[class*="BaseChart-legendIcon--square"] {
   background: #303030;
 }
 
+.ProjectSpreadsheetAggregationCell:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 .ProjectSpreadsheetAggregationCell-value {
   color: #e2e2e2;
 }
