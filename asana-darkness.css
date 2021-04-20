@@ -8121,3 +8121,7 @@ div[class*="BaseChart-legendIcon--square"] {
 .QuickAddTaskToolbar-tokenizerContainer {
   background: #303030;
 }
+
+.ProjectSpreadsheetAggregationCell-value {
+  color: #e2e2e2;
+}
